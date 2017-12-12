@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+      <seach></seach>
+      <router-view></router-view>
   </div>
 </template>
 
 <script>
+import seach from './components/common/Seach';
 export default {
-  name: 'app'
+  name: 'app',
+  components:{
+      seach
+  }
 }
 </script>
 
@@ -18,6 +22,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

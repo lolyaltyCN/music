@@ -1,0 +1,55 @@
+<template>
+  <div class="index">
+    <ul>
+        <li v-for="item in list"><router-link :to="item.hash">{{item.name}}</router-link></li>
+        <router-view></router-view>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'index',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App',
+      list:[
+          {
+              name:'音乐',
+              hash:'music'
+          },
+          {
+              name:'视频',
+              hash:'user'
+          },
+          {
+              name:'电台',
+              hash:'music'
+          },
+          {
+              name:'榜单',
+              hash:'music'
+          },
+      ]
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>
