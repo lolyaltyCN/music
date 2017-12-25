@@ -24,11 +24,11 @@ export default {
           },
           {
               name:'电台',
-              hash:'music'
+              hash:'rdioStation'
           },
           {
               name:'榜单',
-              hash:'music'
+              hash:'rank'
           },
       ]
     }

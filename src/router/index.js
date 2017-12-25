@@ -16,7 +16,7 @@ const vueRouterList = [
     path: '/',
     name: 'index',
     component: index,
-     children:[
+      children:[
       {
         path: '/user',
         component: USer,
