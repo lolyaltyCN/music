@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-      <seach></seach>
       <router-view></router-view>
   </div>
 </template>
 
 <script>
-import seach from './components/common/Seach';
+
 export default {
-  name: 'app',
-  components:{
-      seach
-  }
+  name: 'app'
 }
 </script>
 

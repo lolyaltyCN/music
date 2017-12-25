@@ -15,13 +15,15 @@ const vueRouterList = [
   {
     path: '/',
     name: 'index',
-    component: index,
+    component: index/* ,
       children:[
       {
         path: '/user',
         component: USer,
-      }
-    ] 
+    ]  */
+  },{
+    path:'/user',
+    component: USer,
   }
 ]
 

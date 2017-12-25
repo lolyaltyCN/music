@@ -1,15 +1,23 @@
 <template>
   <div class="index">
-    <ul>
+    <seach></seach>
+    <ul>  
         <li v-for="item in list"><router-link :to="item.hash">{{item.name}}</router-link></li>
         <router-view></router-view>
     </ul>
+    <Footers></Footers>
   </div>
 </template>
 
 <script>
+import seach from './common/Seach';
+import Footers from './common/Footer';
 export default {
   name: 'index',
+  components:{
+      seach,
+      Footers
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
