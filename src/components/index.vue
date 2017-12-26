@@ -12,6 +12,9 @@
 <script>
 import seach from './common/Seach';
 import Footers from './common/Footer';
+
+
+
 export default {
   name: 'index',
   components:{
