@@ -9,6 +9,13 @@ Vue.config.productionTip = false
 
 Vue.config.devtools = true
 
+window.onload = function () {
+    window['adaptive'].desinWidth = 750
+    window['adaptive'].baseFont = 16
+    window['adaptive'].maxWidth = 480
+    window['adaptive'].init()
+}
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
