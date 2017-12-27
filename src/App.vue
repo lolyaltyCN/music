@@ -12,16 +12,16 @@ export default {
 };
 </script>
 
-<style>
+<style  lang="scss">
 @import "./scss/style.scss";
-
+@import "./scss/mixin/mixin.scss";
 
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $whitecolor;
   width: 100%;
   height: 100%;
 }

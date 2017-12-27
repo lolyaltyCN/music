@@ -8,3 +8,17 @@ fontsize
 */
 $size32:.32rem;
 $size21:.21rem;
+$size25:.25rem;
+
+/* 
+mixin
+*/
+@mixin radius($radius:50%){
+    border-radius: $radius;
+}
+
+@mixin linecenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
