@@ -27,6 +27,8 @@ export default {
   background: $themecolor;
   display: flex;
   height: 0.9rem;
+  flex: 0 0 0.9rem;
+  width: 100%;
   padding: 0 0.1rem;
   .song {
     width: 0.9rem;
@@ -37,7 +39,7 @@ export default {
     }
   }
   .seach {
-    width: 5.35rem;
+    flex: 1;
     input {
       width: 100%;
       height: 0.6rem;

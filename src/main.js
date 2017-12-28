@@ -10,7 +10,6 @@ Vue.config.productionTip = false
 
 Vue.config.devtools = true
 
-
 window.onload = function () {
   window['adaptive'].desinWidth = 750
   window['adaptive'].baseFont = 16

@@ -3,6 +3,7 @@ color
 */
 $themecolor:#7682FA;
 $whitecolor:#fff;
+$greencolor: #42b983;
 /* 
 fontsize
 */
@@ -21,4 +22,9 @@ mixin
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+@mixin flex{
+    display: flex;
+    flex-direction:  column;
+    height: 100%;
 }

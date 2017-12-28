@@ -1,35 +1,31 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import mutations from './mutations';
 Vue.use(Vuex)
 let state = {
-    footerList:[
+    footerList: [
         {
-          name: "发现音乐",
-          hash: "findMusic",
-          icon: "icon-wangyiyunyinle",
-          selsect:true
-        },
-        {
-          name: "我的音乐",
-          hash: "mineMusic",
-          icon: "icon-music",
-          selsect:false
-        },
-        {
-          name: "朋友",
-          hash: "friend",
-          icon: "icon-19",
-          selsect:false
-        },
-        {
-          name: "我的",
-          hash: "user",
-          icon: "icon-geren",
-          selsect:false
+            name: "发现音乐",
+            hash: "/",
+            icon: "icon-wangyiyunyinle",
+            selsect: true
+        }, {
+            name: "我的音乐",
+            hash: "mineMusic",
+            icon: "icon-music",
+            selsect: false
+        }, {
+            name: "朋友",
+            hash: "friend",
+            icon: "icon-19",
+            selsect: false
+        }, {
+            name: "我的",
+            hash: "user",
+            icon: "icon-geren",
+            selsect: false
         }
-      ]
+    ]
 }
 
-export default new Vuex.Store({
-    state
-})
+export default new Vuex.Store({state, mutations});

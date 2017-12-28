@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <ul>
-            <li v-for="item in list" >
+            <li v-for="item in $store.state.footerList">
                 <router-link :to="item.hash">
                     <dl v-bind:class="{active:item.selsect}">
                         <dt>
@@ -17,37 +17,7 @@
 
 <script>
 export default {
-  name: "footers",
-  data() {
-    return {
-      list: [
-        {
-          name: "发现音乐",
-          hash: "findMusic",
-          icon: "icon-wangyiyunyinle",
-          selsect:true
-        },
-        {
-          name: "我的音乐",
-          hash: "mineMusic",
-          icon: "icon-music",
-          selsect:false
-        },
-        {
-          name: "朋友",
-          hash: "friend",
-          icon: "icon-19",
-          selsect:false
-        },
-        {
-          name: "我的",
-          hash: "user",
-          icon: "icon-geren",
-          selsect:false
-        }
-      ]
-    };
-  }
+  name: "footers"
 };
 </script>
 
@@ -55,11 +25,8 @@ export default {
 @import "../../scss/mixin/mixin.scss";
 .footer {
   width: 100%;
-  position: fixed;
   height: 0.98rem;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: #333333;
   ul {
     display: flex;
     width: 100%;
@@ -71,7 +38,7 @@ export default {
         color: $whitecolor;
       }
       dl {
-          color: #a9a9a9;
+        color: #a9a9a9;
         dt {
           height: 0.71rem;
           i {
@@ -85,7 +52,10 @@ export default {
       }
 
       .active {
-          color: $whitecolor;
+        color: $greencolor;
+        i{
+            color: $greencolor;
+        }
       }
     }
   }

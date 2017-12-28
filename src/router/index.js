@@ -21,9 +21,10 @@ const vueRouterList = [
         path: '/user',
         component: USer,
     ]  */
-  },{
-    path:'/user',
-    component: USer,
+  },
+  {
+    path: '/user',
+    component: USer
   }
 ]
 
