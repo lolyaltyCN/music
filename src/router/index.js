@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import USer from '@/components/USer'
+import User from '@/components/User'
 import index from '@/components/index'
 
 Vue.use(Router)
@@ -24,7 +24,8 @@ const vueRouterList = [
   },
   {
     path: '/user',
-    component: USer
+    name: 'user',
+    component: User
   }
 ]
 

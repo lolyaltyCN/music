@@ -25,6 +25,24 @@ let state = {
             icon: "icon-geren",
             selsect: false
         }
+    ],
+    indexList:[
+        {
+            name: "音乐",
+            hash: "music"
+          },
+          {
+            name: "视频",
+            hash: "user"
+          },
+          {
+            name: "电台",
+            hash: "rdioStation"
+          },
+          {
+            name: "榜单",
+            hash: "rank"
+          }
     ]
 }
 

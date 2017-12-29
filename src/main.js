@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import Vuex from 'vue'
+import Axios from 'axios'
 import router from './router'
 import "@/assets/icon/iconfont.css"
 import store from './vuex'
@@ -16,6 +17,8 @@ window.onload = function () {
   window['adaptive'].maxWidth = 480
   window['adaptive'].init()
 }
+
+Vue.prototype.$http = Axios
 
 /* eslint-disable no-new */
 new Vue({

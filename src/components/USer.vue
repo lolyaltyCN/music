@@ -6,13 +6,13 @@
                 <i class="icon iconfont icon-rank"></i>
             </div>
         </header>
-        <die class="content">
+        <div class="content">
             <h1>User page</h1>
             <p>{{msg}}</p>
             <code>
                 alert(javascript('ss'));
             </code>
-        </die>
+        </div>
         <Footers></Footers>
     </div>
 </template>
@@ -21,7 +21,7 @@
 import Footers from "./common/Footer";
 
 export default {
-  name: "User",
+  name: "user",
   components: {
     Footers
   },

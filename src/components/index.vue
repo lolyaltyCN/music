@@ -2,7 +2,7 @@
     <div class="index">
         <seach></seach>
         <div class="content">
-            <ul>
+            <ul class='nav_list'>
                 <li v-for="item in list">
                     <router-link :to="item.hash">{{item.name}}</router-link>
                 </li>
@@ -16,6 +16,7 @@
 <script>
 import seach from "./common/Seach";
 import Footers from "./common/Footer";
+import api from "../api/index";
 
 export default {
   name: "index",
@@ -26,43 +27,29 @@ export default {
   mounted(e) {
     this.$store.commit("getFooterState", 0);
   },
+  created() {
+    this.get();
+  },
+  methods: {
+    get() {
+      /* this.$http
+        .get("./banner")
+        .then(
+          response => {
+            console.log(response);
+            console.log(this);
+          },
+          response => {
+            // error callback
+            console.log(response);
+          }
+        ); */
+    }
+  },
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
-      list: [
-        {
-          name: "音乐",
-          hash: "music"
-        },
-        {
-          name: "视频",
-          hash: "user"
-        },
-        {
-          name: "电台",
-          hash: "rdioStation"
-        },
-        {
-          name: "榜单",
-          hash: "rank"
-        },
-        {
-          name: "音乐",
-          hash: "music"
-        },
-        {
-          name: "视频",
-          hash: "user"
-        },
-        {
-          name: "电台",
-          hash: "rdioStation"
-        },
-        {
-          name: "榜单",
-          hash: "rank"
-        }
-      ]
+      list: this.$store.state.indexList
     };
   }
 };
@@ -70,16 +57,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss'>
-@import '../scss/mixin/mixin.scss';
+@import "../scss/mixin/mixin.scss";
 .index {
-    @include flex;
+  @include flex;
   .content {
     flex: 1;
-        -webkit-box-flex: 1;
+    -webkit-box-flex: 1;
     overflow-y: scroll;
-    ul {
+    .nav_list {
+      display: flex;
+      width: 100%;
+      border-bottom: 2px solid #ccc;
+      height: 0.8rem;
       li {
-        margin: 250px;
+        width: 33%;
+        line-height: .8rem;
       }
     }
   }
