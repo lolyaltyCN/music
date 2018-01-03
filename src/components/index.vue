@@ -1,22 +1,22 @@
 <template>
-    <div class="index">
-        <seach></seach>
-        <div class="content">
-            <ul class='nav_list'>
-                <li v-for="item in list">
-                    <router-link :to="item.hash">{{item.name}}</router-link>
-                </li>
-                <router-view></router-view>
-            </ul>
-        </div>
-        <Footers></Footers>
+  <div class="index">
+    <seach></seach>
+    <div class="content">
+      <ul class='nav_list'>
+        <li v-for="item in navList">
+          <router-link :to="item.hash">{{item.name}}</router-link>
+        </li>
+      </ul>
+      <router-view></router-view>
     </div>
+    <Footers :footer-list="footerList"></Footers>
+  </div>
 </template>
 
 <script>
 import seach from "./common/Seach";
 import Footers from "./common/Footer";
-import api from "../api/index";
+import {mapGetters} from "vuex";
 
 export default {
   name: "index",
@@ -24,10 +24,12 @@ export default {
     seach,
     Footers
   },
-  mounted(e) {
-    this.$store.commit("getFooterState", 0);
+  computed: {
+    ...mapGetters(["footerList"]),
+    ...mapGetters(["navList"])
   },
   created() {
+    this.$store.commit("GET_FOOTER_LIST", 0);
     this.get();
   },
   methods: {
@@ -48,8 +50,7 @@ export default {
   },
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
-      list: this.$store.state.indexList
+      msg: "Welcome to Your Vue.js App"
     };
   }
 };
@@ -64,14 +65,21 @@ export default {
     flex: 1;
     -webkit-box-flex: 1;
     overflow-y: scroll;
+    padding-top:  0.8rem;
+    position: relative;
     .nav_list {
       display: flex;
       width: 100%;
       border-bottom: 2px solid #ccc;
       height: 0.8rem;
+      position: fixed;
+      background: $whitecolor;
+      top: .9rem;
+      left: 0;
+      z-index: 11;
       li {
         width: 33%;
-        line-height: .8rem;
+        line-height: 0.8rem;
       }
     }
   }

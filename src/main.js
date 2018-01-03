@@ -4,9 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import Vuex from 'vue'
 import Axios from 'axios'
-import router from './router'
+import router from './router/router'
 import "@/assets/icon/iconfont.css"
-import store from './vuex'
+import store from './vuex/store'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import * as filters from './filter/filter'
+
+// mount with global
+Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 
 Vue.config.devtools = true
@@ -19,6 +24,10 @@ window.onload = function () {
 }
 
 Vue.prototype.$http = Axios
+
+Object.keys(filters).forEach(key => {
+  Vue.filter(key, filters[key])
+})
 
 /* eslint-disable no-new */
 new Vue({

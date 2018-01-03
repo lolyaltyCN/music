@@ -7,26 +7,25 @@
             </div>
         </header>
         <div class="content">
-            <h1>User page</h1>
-            <p>{{msg}}</p>
-            <code>
-                alert(javascript('ss'));
-            </code>
         </div>
-        <Footers></Footers>
+        <Footers :footer-list="footerList"></Footers>
     </div>
 </template>
 
 <script>
 import Footers from "./common/Footer";
+import {mapGetters} from "vuex";
 
 export default {
   name: "user",
   components: {
     Footers
   },
-  mounted(e) {
-    this.$store.commit("getFooterState", 3);
+  computed: {
+    ...mapGetters(["footerList"])
+  },
+  created(){
+    this.$store.commit("GET_FOOTER_LIST", 3);
   },
   data() {
     return {
@@ -51,6 +50,7 @@ export default {
     text-align: center;
     color: $whitecolor;
     line-height: 0.9rem;
+    @include size(35);
     .song {
       width: 0.9rem;
       height: 0.9rem;

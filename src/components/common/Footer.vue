@@ -1,23 +1,36 @@
 <template>
-    <div class="footer">
-        <ul>
-            <li v-for="item in $store.state.footerList">
-                <router-link :to="item.hash">
-                    <dl v-bind:class="{active:item.selsect}">
-                        <dt>
-                            <i :class=" item.icon" class="icon iconfont "></i>
-                        </dt>
-                        <dd>{{item.name}}</dd>
-                    </dl>
-                </router-link>
-            </li>
-        </ul>
-    </div>
+  <div class="footer">
+    <ul>
+      <li v-for="item in footerList">
+        <router-link :to="item.hash">
+          <dl v-bind:class="{active:item.select}">
+            <dt>
+              <i :class=" item.icon" class="icon iconfont "></i>
+            </dt>
+            <dd>{{item.name}}</dd>
+          </dl>
+        </router-link>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "footers"
+  name: "footers",
+  props: {
+    footerList: Array
+  },
+  created() {
+    this.get();
+  },
+  methods: {
+    get() {
+    }
+  },
+  data() {
+    return {};
+  }
 };
 </script>
 
@@ -53,8 +66,8 @@ export default {
 
       .active {
         color: $greencolor;
-        i{
-            color: $greencolor;
+        i {
+          color: $greencolor;
         }
       }
     }
