@@ -32,3 +32,12 @@ export const personalizedMusci = () => {
       return response.data
     })
 }
+
+// 歌单详情
+export const playlistDetail = (id) => {
+  return axios
+    .get(url.playlistDetail + id)
+    .then((response) => {
+      return response.data
+    })
+}

@@ -19,6 +19,10 @@ module.exports = {
         '/personalized/newsong': { //推荐新音乐
             target: 'http://localhost:4001',
             changeOrigin: true
+        },
+        '/playlist': { //歌单详情
+            target: 'http://localhost:4001',
+            changeOrigin: true
         }
     }
 }

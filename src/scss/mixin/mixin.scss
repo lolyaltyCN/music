@@ -15,6 +15,15 @@ $size25:.25rem;
 $size23:.23rem;
 $size16:.16rem;
 
+.song {
+  width: 0.9rem;
+  height: 0.9rem;
+  i {
+    font-size: 0.47rem;
+    line-height: 0.9rem;
+  }
+}
+
 /* 
 mixin
 */

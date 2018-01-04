@@ -31,7 +31,7 @@
     <div class="index_Recommend_song">
       <p class="index_titel">推荐歌单&nbsp;></p>
       <div class="Recommend_song_content">
-        <a :href="`/playlist/`+item.id" v-for='item in personalizedList.slice(0,6)'>
+        <router-link :to="{ name: 'album', params: { id: item.id }}" v-for='(item,index) in personalizedList.slice(0,6)' :key='index'>
         <dl  :id='item.id'>
           <dt>
             <img :src="item.picUrl">
@@ -39,7 +39,7 @@
           </dt>
           <dd>{{item.name}}</dd>
         </dl>
-        </a>
+        </router-link>
       </div>
     </div>
     <!-- 推荐mv -->

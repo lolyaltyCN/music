@@ -30,14 +30,7 @@ export default {
   flex: 0 0 0.9rem;
   width: 100%;
   padding: 0 0.1rem;
-  .song {
-    width: 0.9rem;
-    height: 0.9rem;
-    i {
-      font-size: 0.47rem;
-      line-height: 0.9rem;
-    }
-  }
+  
   .seach {
     flex: 1;
     input {

@@ -39,6 +39,8 @@ export default {
 .footer {
   width: 100%;
   height: 0.98rem;
+  position: fixed;
+  bottom: 0;
   background: #333333;
   ul {
     display: flex;

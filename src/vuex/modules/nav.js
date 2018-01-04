@@ -30,8 +30,7 @@ const getters = {
 
 const actions = {
   getbanner ({commit}) {
-    api
-      .getbanner()
+    api.getbanner()
       .then(res => {
         commit(types.GET_BANNER_LIST, res.banners)
       })

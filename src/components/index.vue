@@ -31,6 +31,7 @@ export default {
   created() {
     this.$store.commit("GET_FOOTER_LIST", 0);
     this.get();
+    console.log(this.footerList)
   },
   methods: {
     get() {
@@ -65,7 +66,7 @@ export default {
     flex: 1;
     -webkit-box-flex: 1;
     overflow-y: scroll;
-    padding-top:  0.8rem;
+    padding:  0.8rem 0 .98rem;
     position: relative;
     .nav_list {
       display: flex;

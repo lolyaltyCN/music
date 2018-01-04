@@ -20,7 +20,7 @@ const actions = {
       .personalized()
       .then(res => {
         if (res.code === 200) {
-          commit(types.GET_PERSONAILZED_LIST, res)
+          commit(types.GET_PERSONAILZED_LIST, res.result)
         } else {
           commit(types.GET_PERSONAILZED_LIST, [])
         }
@@ -31,7 +31,7 @@ const actions = {
       .personalizedMv()
       .then(res => {
         if (res.code === 200) {
-          commit(types.GET_PERSONAILZEDMV_LIST, res)
+          commit(types.GET_PERSONAILZEDMV_LIST, res.result)
         } else {
           commit(types.GET_PERSONAILZEDMV_LIST, [])
         }
@@ -42,7 +42,7 @@ const actions = {
       .personalizedMusci()
       .then(res => {
         if (res.code === 200) {
-          commit(types.GET_PERSONAILZEDMUSIC_LIST, res)
+          commit(types.GET_PERSONAILZEDMUSIC_LIST, res.result)
         } else {
           commit(types.GET_PERSONAILZEDMUSIC_LIST, [])
         }
@@ -52,13 +52,13 @@ const actions = {
 
 const mutations = {
   [types.GET_PERSONAILZED_LIST] (state, res) {
-    state.personalizedList = res.result
+    state.personalizedList = res
   },
   [types.GET_PERSONAILZEDMV_LIST] (state, res) {
-    state.personalizedMvList = res.result
+    state.personalizedMvList = res
   },
   [types.GET_PERSONAILZEDMUSIC_LIST] (state, res) {
-    state.personalizedMusicList = res.result
+    state.personalizedMusicList = res
   }
 }
 
