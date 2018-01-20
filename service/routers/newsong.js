@@ -2,17 +2,19 @@ const mock = require('../util/mock')
 const {createWebAPIRequest} = require('../util/util')
 const flag = require('../util/config')
 
-const banner = function (req, res) {
+const newsong = (req, res) => {
   if (flag) {
-    console.log('banner - mock数据')
-    res.json({banners: mock.banner})
+    console.log('推荐新音乐 - mock数据')
+    res.json(mock.personalized)
     return
   }
   const cookie = req.get('Cookie') ? req.get('Cookie') : ''
-  const data = {}
+  const data = {
+    type: 'recommend'
+  }
   createWebAPIRequest(
     'music.163.com',
-    '/weapi/v2/banner/get',
+    '/weapi/personalized/newsong',
     'POST',
     data,
     cookie,
@@ -22,5 +24,4 @@ const banner = function (req, res) {
     err => res.status(502).send('fetch error')
   )
 }
-
-module.exports = banner
+module.exports = newsong

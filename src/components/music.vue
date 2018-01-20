@@ -31,7 +31,7 @@
     <div class="index_Recommend_song">
       <p class="index_titel">推荐歌单&nbsp;></p>
       <div class="Recommend_song_content">
-        <router-link :to="{ name: 'album', params: { id: item.id }}" v-for='(item,index) in personalizedList.slice(0,6)' :key='index'>
+        <router-link :to="{ name: 'playlist', params: { id: item.id }}" v-for='(item,index) in personalizedList.slice(0,6)' :key='index'>
         <dl  :id='item.id'>
           <dt>
             <img :src="item.picUrl">
@@ -46,13 +46,13 @@
     <div class="index_Recommend_mv">
       <p class="index_titel">推荐MV&nbsp;></p>
       <div class="Recommend_mv_content">
-        <dl v-for='item in personalizedMvList' :id='item.id'>
+        <dl v-for='item in personalizedMvList' :id='item.id' :key='item.id'>
           <dt>
             <img :src="item.picUrl">
             <span>{{item.playCount| thousands}}</span>
           </dt>
           <dd>{{item.name}}</dd>
-          <dd v-for='obj in item.artists' class='recommend_mv_name'>{{obj.name}}/</dd>
+          <dd v-for='(obj,i) in item.artists' class='recommend_mv_name' :key='i'>{{obj.name}}/</dd>
         </dl>
       </div>
     </div>
@@ -60,15 +60,15 @@
     <div class="index_Recommend_music">
       <p class="index_titel">最新音乐&nbsp;></p>
       <div class="Recommend_mv_content">
-        <a :href="`/playlist/`+item.id" v-for='item in personalizedMusicList'>
-        <dl  :id='item.id'>
+        <router-link :to="{ name: 'album', params: { id: item.id }}" v-for='(item,index) in personalizedMusicList.slice(0,6)' :key='index'>
+        <dl :id='item.id'>
           <dt>
             <img :src="item.song.album.picUrl">
           </dt>
           <dd>{{item.name}}</dd>
-          <dd v-for='obj in item.song.artists.slice(0,2)' class='recommend_mv_name'>{{obj.name}}/</dd>
+          <dd v-for='(obj,i) in item.song.artists.slice(0,2)' class='recommend_mv_name' :key='i'>{{obj.name}}/</dd>
         </dl>
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
@@ -96,9 +96,13 @@ export default {
     this.$store.dispatch("getpersonalized");
     this.$store.dispatch("getpersonalizedMv");
     this.$store.dispatch("getpersonalizedMusic");
+    
   },
   methods: {
-    get() {}
+    get() {
+      var _this = this;
+       console.log(_this.personalizedList)
+    }
   },
   data() {
     return {};

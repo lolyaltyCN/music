@@ -3,7 +3,7 @@
     <seach></seach>
     <div class="content">
       <ul class='nav_list'>
-        <li v-for="item in navList">
+        <li v-for="(item,i) in navList" :key='i'>
           <router-link :to="item.hash">{{item.name}}</router-link>
         </li>
       </ul>
@@ -31,7 +31,6 @@ export default {
   created() {
     this.$store.commit("GET_FOOTER_LIST", 0);
     this.get();
-    console.log(this.footerList)
   },
   methods: {
     get() {

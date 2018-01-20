@@ -5,20 +5,24 @@ import User from '@/components/User'
 import index from '@/components/index'
 import music from '@/components/music'
 import NotFond404 from '@/components/404'
-import Album from '@/components/album'
+import Playlist from '@/components/playlist'
+import Album from '@/components/common/album'
 
 Vue.use(Router)
 
 const vueRouterList = [
+  {
+    path: '/',
+    redirect: '/index'
+  },
   {
     path: '/vue',
     name: 'HelloWorld',
     component: HelloWorld
   },
   {
-    path: '/',
+    path: '/index',
     component: index,
-    redirect: '/index',
     children: [
       {
         path: '/index',
@@ -32,9 +36,15 @@ const vueRouterList = [
     component: User
   },
   {
-    path: '/playlist/:id',
-    name: 'album',
-    component: Album
+    path: '/playdetail/:id',
+    name: 'playlist',
+    component: Playlist,
+    children: [
+      {
+        path: '/',
+        component: Album
+      }
+    ]
   },
   {
     path: '*',

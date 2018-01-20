@@ -1,5 +1,5 @@
 const mock = {}
-
+// banner
 mock.banner = [
   {
     pic: 'http://p1.music.126.net/duSAXyarULbHqx-kdU4Hug==/109951163100187049.jpg',
@@ -15,6 +15,7 @@ mock.banner = [
     id: 4
   }
 ]
+// 推荐歌单
 mock.personalizedmusic = {
   code: 200,
   category: 5,
@@ -22,108 +23,108 @@ mock.personalizedmusic = {
     {
       id: 527979647,
       type: 4,
-      name: "Finesse (Remix)",
+      name: 'Finesse (Remix)',
       copywriter: null,
       picUrl: null,
       canDislike: false,
       song: {
-        name: "Finesse (Remix)",
+        name: 'Finesse (Remix)',
         id: 527979647,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7002,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "Bruno Mars",
+            name: 'Bruno Mars',
             id: 178059,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Cardi B",
+            name: 'Cardi B',
             id: 12504253,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "Finesse (Remix)",
+          name: 'Finesse (Remix)',
           id: 37049309,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 1,
           picId: 109951163099988690,
-          blurPicUrl: "http://p1.music.126.net/FhCiEsCNj_L5lUkebawQYw==/109951163099988688.jpg",
+          blurPicUrl: 'http://p1.music.126.net/FhCiEsCNj_L5lUkebawQYw==/109951163099988688.jpg',
           companyId: 0,
           pic: 109951163099988690,
-          picUrl: "http://p1.music.126.net/FhCiEsCNj_L5lUkebawQYw==/109951163099988688.jpg",
+          picUrl: 'http://p1.music.126.net/FhCiEsCNj_L5lUkebawQYw==/109951163099988688.jpg',
           publishTime: 1514995200007,
-          description: "",
-          tags: "",
-          company: "华纳唱片",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '华纳唱片',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7002,
-          commentThreadId: "R_AL_3_37049309",
+          commentThreadId: 'R_AL_3_37049309',
           artists: [
             {
-              name: "Bruno Mars",
+              name: 'Bruno Mars',
               id: 178059,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "Cardi B",
+              name: 'Cardi B',
               id: 12504253,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163099988688"
+          picId_str: '109951163099988688'
         },
         starred: false,
         popularity: 0,
@@ -136,18 +137,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_527979647",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_527979647',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 5798012,
         bMusic: {
-          name: "",
+          name: '',
           id: 1404392995,
           size: 3477882,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -158,10 +159,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1404392993,
           size: 8694640,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -169,10 +170,10 @@ mock.personalizedmusic = {
           volumeDelta: -1
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1404392994,
           size: 5216801,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -180,10 +181,10 @@ mock.personalizedmusic = {
           volumeDelta: -1
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1404392995,
           size: 3477882,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -208,89 +209,89 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "featured"
+      alg: 'featured'
     }, {
       id: 526472192,
       type: 4,
-      name: "POWER (Live)",
+      name: 'POWER (Live)',
       copywriter: null,
       picUrl: null,
       canDislike: false,
       song: {
-        name: "POWER (Live)",
+        name: 'POWER (Live)',
         id: 526472192,
         position: 35,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 539010,
-        disc: "2",
+        disc: '2',
         no: 18,
         artists: [
           {
-            name: "EXO",
+            name: 'EXO',
             id: 759509,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "2017 SBS가요대전 Live",
+          name: '2017 SBS가요대전 Live',
           id: 37085068,
-          type: "合集",
+          type: '合集',
           size: 35,
           picId: 109951163094346620,
-          blurPicUrl: "http://p1.music.126.net/Bia0xK7V1KAyybo05W_rFQ==/109951163094346630.jpg",
+          blurPicUrl: 'http://p1.music.126.net/Bia0xK7V1KAyybo05W_rFQ==/109951163094346630.jpg',
           companyId: 0,
           pic: 109951163094346620,
-          picUrl: "http://p1.music.126.net/Bia0xK7V1KAyybo05W_rFQ==/109951163094346630.jpg",
+          picUrl: 'http://p1.music.126.net/Bia0xK7V1KAyybo05W_rFQ==/109951163094346630.jpg',
           publishTime: 1514390400007,
-          description: "",
-          tags: "",
-          company: "韩流电视首尔",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '韩流电视首尔',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 1,
           copyrightId: 539010,
-          commentThreadId: "R_AL_3_37085068",
+          commentThreadId: 'R_AL_3_37085068',
           artists: [
             {
-              name: "V.A.",
+              name: 'V.A.',
               id: 21138,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163094346630",
-          transNames: ["2017 SBS歌谣大战 Live合辑"]
+          picId_str: '109951163094346630',
+          transNames: ['2017 SBS歌谣大战 Live合辑']
         },
         starred: false,
         popularity: 100,
@@ -303,18 +304,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_526472192",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_526472192',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 2,
         mvid: 5780108,
         bMusic: {
-          name: "",
+          name: '',
           id: 1402051370,
           size: 2846346,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -325,10 +326,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1402051368,
           size: 7115799,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -336,10 +337,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1402051369,
           size: 4269497,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -347,10 +348,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1402051370,
           size: 2846346,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -375,124 +376,124 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "featured"
+      alg: 'featured'
     }, {
       id: 525112527,
       type: 4,
-      name: "SHIVA (Sunburn 2017 Anthem)",
+      name: 'SHIVA (Sunburn 2017 Anthem)',
       copywriter: null,
       picUrl: null,
       canDislike: false,
       song: {
-        name: "SHIVA (Sunburn 2017 Anthem)",
+        name: 'SHIVA (Sunburn 2017 Anthem)',
         id: 525112527,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7002,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "KSHMR",
+            name: 'KSHMR',
             id: 896139,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Marnik",
+            name: 'Marnik',
             id: 1005048,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "The Golden Army",
+            name: 'The Golden Army',
             id: 636076,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "SHIVA (Sunburn 2017 Anthem)",
+          name: 'SHIVA (Sunburn 2017 Anthem)',
           id: 37003160,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 2,
           picId: 18288176905361496,
-          blurPicUrl: "http://p1.music.126.net/9kQ55Xvyil5lCEb8EwSRwA==/18288176905361497.jpg",
+          blurPicUrl: 'http://p1.music.126.net/9kQ55Xvyil5lCEb8EwSRwA==/18288176905361497.jpg',
           companyId: 0,
           pic: 18288176905361496,
-          picUrl: "http://p1.music.126.net/9kQ55Xvyil5lCEb8EwSRwA==/18288176905361497.jpg",
+          picUrl: 'http://p1.music.126.net/9kQ55Xvyil5lCEb8EwSRwA==/18288176905361497.jpg',
           publishTime: 1514476800007,
-          description: "",
-          tags: "",
-          company: "华纳唱片",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '华纳唱片',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7002,
-          commentThreadId: "R_AL_3_37003160",
+          commentThreadId: 'R_AL_3_37003160',
           artists: [
             {
-              name: "KSHMR",
+              name: 'KSHMR',
               id: 896139,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "Marnik",
+              name: 'Marnik',
               id: 1005048,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "18288176905361497"
+          picId_str: '18288176905361497'
         },
         starred: false,
         popularity: 100,
@@ -505,18 +506,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_525112527",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_525112527',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1402349225,
           size: 2924086,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -527,10 +528,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1402349223,
           size: 7310150,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -538,10 +539,10 @@ mock.personalizedmusic = {
           volumeDelta: -3
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1402349224,
           size: 4386107,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -549,10 +550,10 @@ mock.personalizedmusic = {
           volumeDelta: -3
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1402349225,
           size: 2924086,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -577,112 +578,112 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "featured"
+      alg: 'featured'
     }, {
       id: 525112224,
       type: 4,
-      name: "If You Leave Me Now",
+      name: 'If You Leave Me Now',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "If You Leave Me Now",
+        name: 'If You Leave Me Now',
         id: 525112224,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7002,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "Charlie Puth",
+            name: 'Charlie Puth',
             id: 90331,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Boyz II Men",
+            name: 'Boyz II Men',
             id: 88168,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "If You Leave Me Now",
+          name: 'If You Leave Me Now',
           id: 37003086,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 1,
           picId: 17958323416731584,
-          blurPicUrl: "http://p1.music.126.net/qClFf-0KGy10QVRbUs_2YQ==/17958323416731585.jpg",
+          blurPicUrl: 'http://p1.music.126.net/qClFf-0KGy10QVRbUs_2YQ==/17958323416731585.jpg',
           companyId: 0,
           pic: 17958323416731584,
-          picUrl: "http://p1.music.126.net/qClFf-0KGy10QVRbUs_2YQ==/17958323416731585.jpg",
+          picUrl: 'http://p1.music.126.net/qClFf-0KGy10QVRbUs_2YQ==/17958323416731585.jpg',
           publishTime: 1514995200007,
-          description: "",
-          tags: "",
-          company: "华纳唱片",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '华纳唱片',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7002,
-          commentThreadId: "R_AL_3_37003086",
+          commentThreadId: 'R_AL_3_37003086',
           artists: [
             {
-              name: "Charlie Puth",
+              name: 'Charlie Puth',
               id: 90331,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "Boyz II Men",
+              name: 'Boyz II Men',
               id: 88168,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "17958323416731585"
+          picId_str: '17958323416731585'
         },
         starred: false,
         popularity: 0,
@@ -695,18 +696,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_525112224",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_525112224',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1404434772,
           size: 3875779,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -717,10 +718,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1404434770,
           size: 9689382,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -728,10 +729,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1404434771,
           size: 5813647,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -739,10 +740,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1404434772,
           size: 3875779,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -768,112 +769,112 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 528335230,
       type: 4,
-      name: "For You",
+      name: 'For You',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "For You",
+        name: 'For You',
         id: 528335230,
         position: 1,
-        alias: ["电影《五十度飞》主题曲"],
+        alias: ['电影《五十度飞》主题曲'],
         status: 0,
         fee: 8,
         copyrightId: 7003,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "Liam Payne",
+            name: 'Liam Payne',
             id: 12073104,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Rita Ora",
+            name: 'Rita Ora',
             id: 74575,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "For You",
+          name: 'For You',
           id: 37121118,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 1,
           picId: 109951163100629040,
-          blurPicUrl: "http://p1.music.126.net/dGuuFjv5EJ8djzk3CNC43A==/109951163100629037.jpg",
+          blurPicUrl: 'http://p1.music.126.net/dGuuFjv5EJ8djzk3CNC43A==/109951163100629037.jpg',
           companyId: 0,
           pic: 109951163100629040,
-          picUrl: "http://p1.music.126.net/dGuuFjv5EJ8djzk3CNC43A==/109951163100629037.jpg",
+          picUrl: 'http://p1.music.126.net/dGuuFjv5EJ8djzk3CNC43A==/109951163100629037.jpg',
           publishTime: 1515081600007,
-          description: "",
-          tags: "",
-          company: "环球唱片",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '环球唱片',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
-          alias: ["电影《五十度飞》主题曲"],
+          alias: ['电影《五十度飞》主题曲'],
           status: 3,
           copyrightId: 7003,
-          commentThreadId: "R_AL_3_37121118",
+          commentThreadId: 'R_AL_3_37121118',
           artists: [
             {
-              name: "Liam Payne",
+              name: 'Liam Payne',
               id: 12073104,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "Rita Ora",
+              name: 'Rita Ora',
               id: 74575,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163100629037"
+          picId_str: '109951163100629037'
         },
         starred: false,
         popularity: 0,
@@ -886,18 +887,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_528335230",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_528335230',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1405404189,
           size: 3909634,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -908,10 +909,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1405404187,
           size: 9774019,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -919,10 +920,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1405404188,
           size: 5864429,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -930,10 +931,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1405404189,
           size: 3909634,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -959,112 +960,112 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 526929981,
       type: 4,
-      name: "All The Stars",
+      name: 'All The Stars',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "All The Stars",
+        name: 'All The Stars',
         id: 526929981,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7003,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "Kendrick Lamar",
+            name: 'Kendrick Lamar',
             id: 37995,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "SZA",
+            name: 'SZA',
             id: 905232,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "All The Stars",
+          name: 'All The Stars',
           id: 37121095,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 1,
           picId: 109951163100540640,
-          blurPicUrl: "http://p1.music.126.net/L28VPNn3TzNnYm_UsmjVxw==/109951163100540642.jpg",
+          blurPicUrl: 'http://p1.music.126.net/L28VPNn3TzNnYm_UsmjVxw==/109951163100540642.jpg',
           companyId: 0,
           pic: 109951163100540640,
-          picUrl: "http://p1.music.126.net/L28VPNn3TzNnYm_UsmjVxw==/109951163100540642.jpg",
+          picUrl: 'http://p1.music.126.net/L28VPNn3TzNnYm_UsmjVxw==/109951163100540642.jpg',
           publishTime: 1514995200007,
-          description: "",
-          tags: "",
-          company: "环球唱片",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '环球唱片',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7003,
-          commentThreadId: "R_AL_3_37121095",
+          commentThreadId: 'R_AL_3_37121095',
           artists: [
             {
-              name: "Kendrick Lamar",
+              name: 'Kendrick Lamar',
               id: 37995,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "SZA",
+              name: 'SZA',
               id: 905232,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163100540642"
+          picId_str: '109951163100540642'
         },
         starred: false,
         popularity: 0,
@@ -1077,18 +1078,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_526929981",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_526929981',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1405183957,
           size: 3769617,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1099,10 +1100,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1405183955,
           size: 9423978,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -1110,10 +1111,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1405183956,
           size: 5654404,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -1121,10 +1122,10 @@ mock.personalizedmusic = {
           volumeDelta: -1
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1405183957,
           size: 3769617,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1150,88 +1151,88 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 528271019,
       type: 4,
-      name: "无常",
+      name: '无常',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "无常",
+        name: '无常',
         id: 528271019,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 636011,
-        disc: "",
+        disc: '',
         no: 1,
         artists: [
           {
-            name: "于湉",
+            name: '于湉',
             id: 905413,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "无常",
+          name: '无常',
           id: 37176012,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 2,
           picId: 109951163099958980,
-          blurPicUrl: "http://p1.music.126.net/RMW409XkNNi_hOb08wOJQA==/109951163099958971.jpg",
+          blurPicUrl: 'http://p1.music.126.net/RMW409XkNNi_hOb08wOJQA==/109951163099958971.jpg',
           companyId: 0,
           pic: 109951163099958980,
-          picUrl: "http://p1.music.126.net/RMW409XkNNi_hOb08wOJQA==/109951163099958971.jpg",
+          picUrl: 'http://p1.music.126.net/RMW409XkNNi_hOb08wOJQA==/109951163099958971.jpg',
           publishTime: 1515081600007,
-          description: "",
-          tags: "",
-          company: "天娱传媒",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '天娱传媒',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 0,
           copyrightId: 636011,
-          commentThreadId: "R_AL_3_37176012",
+          commentThreadId: 'R_AL_3_37176012',
           artists: [
             {
-              name: "于湉",
+              name: '于湉',
               id: 905413,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163099958971"
+          picId_str: '109951163099958971'
         },
         starred: false,
         popularity: 0,
@@ -1244,18 +1245,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_528271019",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_528271019',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 0,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1404667728,
           size: 3558966,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1266,10 +1267,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1404667726,
           size: 8897350,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -1277,10 +1278,10 @@ mock.personalizedmusic = {
           volumeDelta: 0
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1404667727,
           size: 5338427,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -1288,10 +1289,10 @@ mock.personalizedmusic = {
           volumeDelta: 0
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1404667728,
           size: 3558966,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1317,136 +1318,136 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 526883263,
       type: 4,
-      name: "So Far Away (CMC$ Remix)",
+      name: 'So Far Away (CMC$ Remix)',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "So Far Away (CMC$ Remix)",
+        name: 'So Far Away (CMC$ Remix)',
         id: 526883263,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7001,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "Martin Garrix",
+            name: 'Martin Garrix',
             id: 780003,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "David Guetta",
+            name: 'David Guetta',
             id: 31211,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Jamie Scott",
+            name: 'Jamie Scott',
             id: 141813,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "Romy Dya",
+            name: 'Romy Dya',
             id: 12900365,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "CMC$",
+            name: 'CMC$',
             id: 1086052,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "So Far Away (Remixes Vol. 2)",
+          name: 'So Far Away (Remixes Vol. 2)',
           id: 37052480,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 5,
           picId: 109951163095249920,
-          blurPicUrl: "http://p1.music.126.net/fNxE87W6wFnWd35cfcAW9g==/109951163095249917.jpg",
+          blurPicUrl: 'http://p1.music.126.net/fNxE87W6wFnWd35cfcAW9g==/109951163095249917.jpg',
           companyId: 0,
           pic: 109951163095249920,
-          picUrl: "http://p1.music.126.net/fNxE87W6wFnWd35cfcAW9g==/109951163095249917.jpg",
+          picUrl: 'http://p1.music.126.net/fNxE87W6wFnWd35cfcAW9g==/109951163095249917.jpg',
           publishTime: 1515081600007,
-          description: "",
-          tags: "",
-          company: "索尼音乐",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '索尼音乐',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7001,
-          commentThreadId: "R_AL_3_37052480",
+          commentThreadId: 'R_AL_3_37052480',
           artists: [
             {
-              name: "Martin Garrix",
+              name: 'Martin Garrix',
               id: 780003,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163095249917"
+          picId_str: '109951163095249917'
         },
         starred: false,
         popularity: 0,
@@ -1459,18 +1460,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_526883263",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_526883263',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1403929459,
           size: 2671639,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1481,10 +1482,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1403929457,
           size: 6679031,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -1492,10 +1493,10 @@ mock.personalizedmusic = {
           volumeDelta: -3
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1403929458,
           size: 4007436,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -1503,10 +1504,10 @@ mock.personalizedmusic = {
           volumeDelta: -3
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1403929459,
           size: 2671639,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1532,112 +1533,112 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 526904664,
       type: 4,
-      name: "杀无赦",
+      name: '杀无赦',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "杀无赦",
+        name: '杀无赦',
         id: 526904664,
         position: 1,
-        alias: ["电影《杀无赦》同名主题曲"],
+        alias: ['电影《杀无赦》同名主题曲'],
         status: 0,
         fee: 0,
         copyrightId: 417014,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "艾福杰尼",
+            name: '艾福杰尼',
             id: 12127564,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }, {
-            name: "BooM黄旭",
+            name: 'BooM黄旭',
             id: 12065096,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "杀无赦",
+          name: '杀无赦',
           id: 37099184,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 2,
           picId: 109951163099042260,
-          blurPicUrl: "http://p1.music.126.net/ZL-h8d20fakGYxzSfSt5Xg==/109951163099042254.jpg",
+          blurPicUrl: 'http://p1.music.126.net/ZL-h8d20fakGYxzSfSt5Xg==/109951163099042254.jpg',
           companyId: 0,
           pic: 109951163099042260,
-          picUrl: "http://p1.music.126.net/ZL-h8d20fakGYxzSfSt5Xg==/109951163099042254.jpg",
+          picUrl: 'http://p1.music.126.net/ZL-h8d20fakGYxzSfSt5Xg==/109951163099042254.jpg',
           publishTime: 1514908800000,
-          description: "",
-          tags: "",
-          company: "自在天浩",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '自在天浩',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
-          alias: ["电影《杀无赦》同名主题曲"],
+          alias: ['电影《杀无赦》同名主题曲'],
           status: 0,
           copyrightId: 417014,
-          commentThreadId: "R_AL_3_37099184",
+          commentThreadId: 'R_AL_3_37099184',
           artists: [
             {
-              name: "艾福杰尼",
+              name: '艾福杰尼',
               id: 12127564,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }, {
-              name: "BooM黄旭",
+              name: 'BooM黄旭',
               id: 12065096,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163099042254"
+          picId_str: '109951163099042254'
         },
         starred: false,
         popularity: 0,
@@ -1650,18 +1651,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_526904664",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_526904664',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 2,
         mvid: 5799017,
         bMusic: {
-          name: "",
+          name: '',
           id: 1404931959,
           size: 3053653,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1672,10 +1673,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1404931957,
           size: 7634068,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -1683,10 +1684,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1404931958,
           size: 4580458,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -1694,10 +1695,10 @@ mock.personalizedmusic = {
           volumeDelta: -2
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1404931959,
           size: 3053653,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1723,88 +1724,88 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 526883262,
       type: 4,
-      name: "Tell Somebody",
+      name: 'Tell Somebody',
       copywriter: null,
       picUrl: null,
       canDislike: true,
       song: {
-        name: "Tell Somebody",
+        name: 'Tell Somebody',
         id: 526883262,
         position: 1,
         alias: [],
         status: 0,
         fee: 8,
         copyrightId: 7001,
-        disc: "1",
+        disc: '1',
         no: 1,
         artists: [
           {
-            name: "KiD Ink",
+            name: 'KiD Ink',
             id: 37969,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           }
         ],
         album: {
-          name: "Tell Somebody",
+          name: 'Tell Somebody',
           id: 37052479,
-          type: "EP/Single",
+          type: 'EP/Single',
           size: 1,
           picId: 109951163095249390,
-          blurPicUrl: "http://p1.music.126.net/bDhRyOYUzgC9cDkJDJ9v9w==/109951163095249393.jpg",
+          blurPicUrl: 'http://p1.music.126.net/bDhRyOYUzgC9cDkJDJ9v9w==/109951163095249393.jpg',
           companyId: 0,
           pic: 109951163095249390,
-          picUrl: "http://p1.music.126.net/bDhRyOYUzgC9cDkJDJ9v9w==/109951163095249393.jpg",
+          picUrl: 'http://p1.music.126.net/bDhRyOYUzgC9cDkJDJ9v9w==/109951163095249393.jpg',
           publishTime: 1515081600007,
-          description: "",
-          tags: "",
-          company: "索尼音乐",
-          briefDesc: "",
+          description: '',
+          tags: '',
+          company: '索尼音乐',
+          briefDesc: '',
           artist: {
-            name: "",
+            name: '',
             id: 0,
             picId: 0,
             img1v1Id: 0,
-            briefDesc: "",
-            picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-            img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            briefDesc: '',
+            picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+            img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
             albumSize: 0,
             alias: [],
-            trans: "",
+            trans: '',
             musicSize: 0
           },
           songs: [],
           alias: [],
           status: 3,
           copyrightId: 7001,
-          commentThreadId: "R_AL_3_37052479",
+          commentThreadId: 'R_AL_3_37052479',
           artists: [
             {
-              name: "KiD Ink",
+              name: 'KiD Ink',
               id: 37969,
               picId: 0,
               img1v1Id: 0,
-              briefDesc: "",
-              picUrl: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-              img1v1Url: "http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+              briefDesc: '',
+              picUrl: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
+              img1v1Url: 'http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg',
               albumSize: 0,
               alias: [],
-              trans: "",
+              trans: '',
               musicSize: 0
             }
           ],
-          picId_str: "109951163095249393"
+          picId_str: '109951163095249393'
         },
         starred: false,
         popularity: 0,
@@ -1817,18 +1818,18 @@ mock.personalizedmusic = {
         ringtone: null,
         crbt: null,
         audition: null,
-        copyFrom: "",
-        commentThreadId: "R_SO_4_526883262",
+        copyFrom: '',
+        commentThreadId: 'R_SO_4_526883262',
         rtUrl: null,
         ftype: 0,
         rtUrls: [],
         copyright: 1,
         mvid: 0,
         bMusic: {
-          name: "",
+          name: '',
           id: 1402460791,
           size: 3856135,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1839,10 +1840,10 @@ mock.personalizedmusic = {
         rtype: 0,
         rurl: null,
         hMusic: {
-          name: "",
+          name: '',
           id: 1402460789,
           size: 9640272,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 320000,
@@ -1850,10 +1851,10 @@ mock.personalizedmusic = {
           volumeDelta: 0
         },
         mMusic: {
-          name: "",
+          name: '',
           id: 1402460790,
           size: 5784181,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 192000,
@@ -1861,10 +1862,10 @@ mock.personalizedmusic = {
           volumeDelta: 0
         },
         lMusic: {
-          name: "",
+          name: '',
           id: 1402460791,
           size: 3856135,
-          extension: "mp3",
+          extension: 'mp3',
           sr: 44100,
           dfsId: 0,
           bitrate: 128000,
@@ -1890,10 +1891,11 @@ mock.personalizedmusic = {
           preSell: false
         }
       },
-      alg: "hot_server"
+      alg: 'hot_server'
     }
   ]
 }
+// 推荐mv
 mock.personalizedmv = {
   code: 200,
   category: 3,
@@ -1901,9 +1903,9 @@ mock.personalizedmv = {
     {
       id: 5798012,
       type: 5,
-      name: "Finesse (Remix)",
-      copywriter: "编辑推荐：火星哥携Cardi B为大家带来骚气十足的开年大礼",
-      picUrl: "http://p1.music.126.net/lwe9JEU5EVSC0mseGuB37w==/109951163099987130.jpg",
+      name: 'Finesse (Remix)',
+      copywriter: '编辑推荐：火星哥携Cardi B为大家带来骚气十足的开年大礼',
+      picUrl: 'http://p1.music.126.net/lwe9JEU5EVSC0mseGuB37w==/109951163099987130.jpg',
       canDislike: false,
       duration: 223000,
       playCount: 71940,
@@ -1911,21 +1913,21 @@ mock.personalizedmv = {
       artists: [
         {
           id: 178059,
-          name: "Bruno Mars"
+          name: 'Bruno Mars'
         }, {
           id: 12504253,
-          name: "Cardi B"
+          name: 'Cardi B'
         }
       ],
-      artistName: "Bruno Mars",
+      artistName: 'Bruno Mars',
       artistId: 178059,
-      alg: "featured"
+      alg: 'featured'
     }, {
       id: 5799017,
       type: 5,
-      name: "杀无赦",
-      copywriter: "编辑推荐：听有态度的嘻哈少年如何唱出心声",
-      picUrl: "http://p1.music.126.net/LPN2FE1k3PdYfEVaUuAZdA==/109951163100107363.jpg",
+      name: '杀无赦',
+      copywriter: '编辑推荐：听有态度的嘻哈少年如何唱出心声',
+      picUrl: 'http://p1.music.126.net/LPN2FE1k3PdYfEVaUuAZdA==/109951163100107363.jpg',
       canDislike: false,
       duration: 185000,
       playCount: 22312,
@@ -1933,21 +1935,21 @@ mock.personalizedmv = {
       artists: [
         {
           id: 12127564,
-          name: "艾福杰尼"
+          name: '艾福杰尼'
         }, {
           id: 12065096,
-          name: "BooM黄旭"
+          name: 'BooM黄旭'
         }
       ],
-      artistName: "艾福杰尼",
+      artistName: '艾福杰尼',
       artistId: 12127564,
-      alg: "featured"
+      alg: 'featured'
     }, {
       id: 5794144,
       type: 5,
-      name: "2017音乐白皮书之荣誉篇",
-      copywriter: "最新热门MV推荐",
-      picUrl: "http://p1.music.126.net/Rw6BttxmCx2Yhqv-mkviLw==/109951163099399778.jpg",
+      name: '2017音乐白皮书之荣誉篇',
+      copywriter: '最新热门MV推荐',
+      picUrl: 'http://p1.music.126.net/Rw6BttxmCx2Yhqv-mkviLw==/109951163099399778.jpg',
       canDislike: true,
       duration: 121000,
       playCount: 65284,
@@ -1955,18 +1957,18 @@ mock.personalizedmv = {
       artists: [
         {
           id: 122455,
-          name: "群星"
+          name: '群星'
         }
       ],
-      artistName: "群星",
+      artistName: '群星',
       artistId: 122455,
-      alg: "hot_server"
+      alg: 'hot_server'
     }, {
       id: 5779188,
       type: 5,
-      name: "非酋",
-      copywriter: "最新热门MV推荐",
-      picUrl: "http://p1.music.126.net/3u1mMhnyUpWihHexge0tvg==/109951163094283884.jpg",
+      name: '非酋',
+      copywriter: '最新热门MV推荐',
+      picUrl: 'http://p1.music.126.net/3u1mMhnyUpWihHexge0tvg==/109951163094283884.jpg',
       canDislike: true,
       duration: 242000,
       playCount: 61500,
@@ -1974,353 +1976,24 @@ mock.personalizedmv = {
       artists: [
         {
           id: 12408182,
-          name: "薛明媛"
+          name: '薛明媛'
         }
       ],
-      artistName: "薛明媛",
+      artistName: '薛明媛',
       artistId: 12408182,
-      alg: "hot_server"
+      alg: 'hot_server'
     }
   ]
 }
+// 推荐音乐
 mock.personalized = {
-  hasTaste: false,
-  code: 200,
-  category: 0,
-  result: [
-    {
-      id: 2031595851,
-      type: 0,
-      name: "华语||我不怕等待，我怕你不来",
-      copywriter: "编辑推荐：祝福所有等待，都有美好结局。",
-      picUrl: "http://p1.music.126.net/7ACmNrSV20eUnAsD98F7xQ==/109951163093989641.jpg",
-      canDislike: false,
-      playCount: 1504648.5,
-      trackCount: 56,
-      highQuality: false,
-      alg: "featured"
-    }, {
-      id: 2010627320,
-      type: 0,
-      name: "感情宣泄地|痛入心脾的情歌",
-      copywriter: "编辑推荐：不然就痛痛快快地爱一场吧",
-      picUrl: "http://p1.music.126.net/EyofYi-h3J9QXUSBVN6vTw==/109951163100613487.jpg",
-      canDislike: false,
-      playCount: 645458.8,
-      trackCount: 44,
-      highQuality: false,
-      alg: "featured"
-    }, {
-      id: 718851383,
-      type: 0,
-      name: "『古风•填翻』一曲不尽 尤是多情",
-      copywriter: "根据你喜欢的标签 古风 推荐",
-      picUrl: "http://p1.music.126.net/sC3qn8CBKLxdXR2A6PFzXQ==/18625726976669120.jpg",
-      canDislike: true,
-      playCount: 75565,
-      trackCount: 517,
-      highQuality: false,
-      alg: "taste"
-    }, {
-      id: 629235893,
-      type: 0,
-      name: "『醉典』香港电视剧经典配乐精选150首",
-      copywriter: "根据你喜欢的标签 古风 推荐",
-      picUrl: "http://p1.music.126.net/G8WWC0TI6jLMqdbbHxEf_Q==/18878614648941293.jpg",
-      canDislike: true,
-      playCount: 729500.75,
-      trackCount: 150,
-      highQuality: false,
-      alg: "taste"
-    }, {
-      id: 597003652,
-      type: 0,
-      name: "水韵漫江南，一枕烟雨舟",
-      copywriter: "根据你喜欢的标签 古风 推荐",
-      picUrl: "http://p1.music.126.net/yZ2M4pAzm7UiXsF1GttsUw==/19151293532619496.jpg",
-      canDislike: true,
-      playCount: 1148253.9,
-      trackCount: 158,
-      highQuality: false,
-      alg: "taste"
-    }, {
-      id: 2039073542,
-      type: 0,
-      name: "2017年度最热新歌TOP100",
-      copywriter: "热门推荐",
-      picUrl: "http://p1.music.126.net/AZEa0RlZxNkxWAi0wpDI4w==/109951163097632993.jpg",
-      canDislike: true,
-      playCount: 12919358,
-      trackCount: 100,
-      highQuality: false,
-      alg: "cityLevel_unknow"
-    }, {
-      id: 2031001648,
-      type: 0,
-      name: "后会无期的你还有多少追忆",
-      copywriter: "热门推荐",
-      picUrl: "http://p1.music.126.net/I_s5DCMkuH3HUDmgDzXu_Q==/109951163097604255.jpg",
-      canDislike: true,
-      playCount: 183891.39,
-      trackCount: 37,
-      highQuality: false,
-      alg: "cityLevel_unknow"
-    }, {
-      id: 1994370897,
-      type: 0,
-      name: "百首老歌：再续当年情",
-      copywriter: "热门推荐",
-      picUrl: "http://p1.music.126.net/d-NyP3AEs1aGYma-Z9_8sg==/18804947371982813.jpg",
-      canDislike: true,
-      playCount: 3443261.2,
-      trackCount: 100,
-      highQuality: false,
-      alg: "cityLevel_unknow"
-    }, {
-      id: 922451234,
-      type: 0,
-      name: "☆韩文☆清新女声治愈合集＾",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/-aI3L6oZvT_mnuSbVnn4WA==/19084223323650969.jpg",
-      canDislike: true,
-      playCount: 244913.2,
-      trackCount: 47,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 1982128747,
-      type: 0,
-      name: "夜的钢琴曲 石进",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/qLmRPG2RJpWMb105DBZM0Q==/109951163079422591.jpg",
-      canDislike: true,
-      playCount: 239251.6,
-      trackCount: 2,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2006026889,
-      type: 0,
-      name: "听这些个性炯异的创作人【最爱金曲榜】",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/dkaDnixq2yDKVCGh2mQu0g==/109951163078842479.jpg",
-      canDislike: true,
-      playCount: 369598.6,
-      trackCount: 39,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 947298672,
-      type: 0,
-      name: "▶ Best Electronic In 2017丨电音鉴赏指南",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/L1h1IQDetgYkMfhw292GLg==/19226060323681789.jpg",
-      canDislike: true,
-      playCount: 248663.8,
-      trackCount: 255,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 983821688,
-      type: 0,
-      name: "『戏腔』惊艳♛回眸一笑百媚生",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/A0alasZh_jks6yiyLcvjrw==/18903903416776929.jpg",
-      canDislike: true,
-      playCount: 247588.61,
-      trackCount: 40,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 950696268,
-      type: 0,
-      name: "粤语|当爱已成往事丶将往事留在心中",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/-kyglCvtTr7qkQZwo11jkg==/109951163049061450.jpg",
-      canDislike: true,
-      playCount: 363529.6,
-      trackCount: 79,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2006282871,
-      type: 0,
-      name: "「抑郁怪物」只適合聽丧歌.",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/wshGKv_p2zPtOStYsQ-yzg==/19013854579550373.jpg",
-      canDislike: true,
-      playCount: 386776.6,
-      trackCount: 313,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 942500193,
-      type: 0,
-      name: "世界著名钢琴协奏曲选集",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/Kcn_XT2-0fjBKwJZ8x3OUw==/109951163074756606.jpg",
-      canDislike: true,
-      playCount: 253792,
-      trackCount: 151,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2000012669,
-      type: 0,
-      name: "『KawaiiBass 』您的冬日软萌电子已上线๑",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/iaVJ_XRQRiYeUOJ0ly9lNQ==/19157890602860799.jpg",
-      canDislike: true,
-      playCount: 181476.39,
-      trackCount: 56,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 945524181,
-      type: 0,
-      name: "「东方※星灵轻电」徜徉熹微尘隙",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/j_r2BZ9Qf9A5L0UY_Ck4Uw==/19200771556229515.jpg",
-      canDislike: true,
-      playCount: 202367.2,
-      trackCount: 50,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2005521752,
-      type: 0,
-      name: "中国电影里日本配乐师的东方印象",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/vO-Fwbdx_E4o0dM0JIRRpQ==/109951163081386086.jpg",
-      canDislike: true,
-      playCount: 273922.6,
-      trackCount: 40,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 966537352,
-      type: 0,
-      name: "欧美节奏控丨耳边跃动的小精灵",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/TwB2yJXPYqJhcAzbFFyXJw==/19234856416748954.jpg",
-      canDislike: true,
-      playCount: 269323.6,
-      trackCount: 88,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 998300524,
-      type: 0,
-      name: "华语R&B • 唤起你记忆深处曾有过的情怀",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/VwEBQPu4LAI369R-8lsfuA==/109951163063606709.jpg",
-      canDislike: true,
-      playCount: 348082,
-      trackCount: 47,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 1983195962,
-      type: 0,
-      name: "唯美日系丨枫叶荻花红霞瑟 楓飘红霞光",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/z3PXTw21prRSHoMpVLFMCg==/18988565812180141.jpg",
-      canDislike: true,
-      playCount: 220670.8,
-      trackCount: 25,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 1991244139,
-      type: 0,
-      name: "这么冷的天，你一定需要女朋友吧",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/oq4O5qhQ7vvHMHzlACbDBQ==/109951163079468903.jpg",
-      canDislike: true,
-      playCount: 291268.6,
-      trackCount: 52,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 983204058,
-      type: 0,
-      name: "曾经相遇 总胜过从未碰头",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/mwUuTr_5Lg-UAO67wUg4KA==/18659811837033459.jpg",
-      canDislike: true,
-      playCount: 325032.4,
-      trackCount: 50,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 1984073701,
-      type: 0,
-      name: "刷牙进行曲 | 拒绝闹铃毁歌",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/xb7FwFq7GCH2fp3wjfh__A==/109951163066645220.jpg",
-      canDislike: true,
-      playCount: 300941.2,
-      trackCount: 54,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 1990154038,
-      type: 0,
-      name: "洞箫精选｜一曲洞箫吹向月，夜深惊起海中乌",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/N_wa4jt1DOpHPRi80AluCA==/19223861300495598.jpg",
-      canDislike: true,
-      playCount: 233237.2,
-      trackCount: 66,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2032554936,
-      type: 0,
-      name: "【日系】冬日里温暖的旋律",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/5tdWXGX0pDtAN3MOEg2uXQ==/109951163094555035.jpg",
-      canDislike: true,
-      playCount: 292457.2,
-      trackCount: 33,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2027663182,
-      type: 0,
-      name: "[电子] 俄语也可以主流潮",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/_jOl4TT8DC-Lj_7cYH7VsA==/109951163091788950.jpg",
-      canDislike: true,
-      playCount: 276392.22,
-      trackCount: 42,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 2003915661,
-      type: 0,
-      name: "ACG电音丨85首精选ACG电音",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/W4tDo3Xnza1AyIxwHf4Sww==/19209567649389393.jpg",
-      canDislike: true,
-      playCount: 226584.4,
-      trackCount: 85,
-      highQuality: false,
-      alg: "hot_server"
-    }, {
-      id: 976038728,
-      type: 0,
-      name: "「韩语」轻柔男声 • 冬季里必备的温暖嗓音",
-      copywriter: "热门歌单推荐",
-      picUrl: "http://p1.music.126.net/-rwZ7JkArtmLYvfs6N25RQ==/109951163064276469.jpg",
-      canDislike: true,
-      playCount: 227819.2,
-      trackCount: 73,
-      highQuality: false,
-      alg: "hot_server"
-    }
-  ]
-}
+  "code":200,
+  "category":5,
+  "result":
+  [{"id":531051217,"type":4,"name":"等你下课 (with 杨瑞代)","copywriter":null,"picUrl":null,"canDislike":false,"song":{"name":"等你下课 (with 杨瑞代)","id":531051217,"position":1,"alias":[],"status":0,"fee":8,"copyrightId":1007,"disc":"1","no":1,"artists":[{"name":"周杰伦","id":6452,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"等你下课","id":37251353,"type":"EP/Single","size":1,"picId":109951163110962030,"blurPicUrl":"http://p1.music.126.net/A8qicH14toObbLpPMiKmBw==/109951163110962030.jpg","companyId":0,"pic":109951163110962030,"picUrl":"http://p1.music.126.net/A8qicH14toObbLpPMiKmBw==/109951163110962030.jpg","publishTime":1516204800007,"description":"","tags":"","company":"杰威尔","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":3,"copyrightId":1007,"commentThreadId":"R_AL_3_37251353","artists":[{"name":"周杰伦","id":6452,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163110962030"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":270000,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_531051217","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409180625,"size":10802199,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":270000,"volumeDelta":0.0},"mMusic":{"name":"","id":1409180626,"size":6481337,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":270000,"volumeDelta":0.0},"lMusic":{"name":"","id":1409180627,"size":4320906,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":270000,"volumeDelta":0.0},"bMusic":{"name":"","id":1409180627,"size":4320906,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":270000,"volumeDelta":0.0},"mvid":5819032,"mp3Url":null,"rtype":0,"rurl":null,"privilege":{"id":531051217,"fee":8,"payed":0,"st":0,"pl":128000,"dl":128000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false}},"alg":"featured"},{"id":531040038,"type":4,"name":"如初之光","copywriter":null,"picUrl":null,"canDislike":false,"song":{"name":"如初之光","id":531040038,"position":1,"alias":["Let There Be Light"],"status":0,"fee":8,"copyrightId":7001,"disc":"1","no":1,"artists":[{"name":"莫文蔚","id":8926,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"如初之光","id":37256308,"type":"EP/Single","size":1,"picId":109951163110680582,"blurPicUrl":"http://p1.music.126.net/vqT8COoiWbXvQJ39gJZPrA==/109951163110680582.jpg","companyId":0,"pic":109951163110680582,"picUrl":"http://p1.music.126.net/vqT8COoiWbXvQJ39gJZPrA==/109951163110680582.jpg","publishTime":1516204800007,"description":"","tags":"","company":"索尼音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":["Let There Be Light"],"status":3,"copyrightId":7001,"commentThreadId":"R_AL_3_37256308","artists":[{"name":"莫文蔚","id":8926,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163110680582"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":278973,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_531040038","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":2,"hMusic":{"name":"","id":1409859647,"size":11161644,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":278973,"volumeDelta":0.0},"mMusic":{"name":"","id":1409859648,"size":6697004,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":278973,"volumeDelta":0.0},"lMusic":{"name":"","id":1409859649,"size":4464684,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":278973,"volumeDelta":1.0},"bMusic":{"name":"","id":1409859649,"size":4464684,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":278973,"volumeDelta":1.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"privilege":{"id":531040038,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"featured"},{"id":530986025,"type":4,"name":"For Real","copywriter":null,"picUrl":null,"canDislike":false,"song":{"name":"For Real","id":530986025,"position":1,"alias":[],"status":0,"fee":8,"copyrightId":660010,"disc":"","no":0,"artists":[{"name":"杨美娜","id":12279820,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"For Real","id":37256270,"type":"EP/Single","size":1,"picId":109951163109945839,"blurPicUrl":"http://p1.music.126.net/dqErho8mR3dMly8lCrNgpg==/109951163109945839.jpg","companyId":0,"pic":109951163109945839,"picUrl":"http://p1.music.126.net/dqErho8mR3dMly8lCrNgpg==/109951163109945839.jpg","publishTime":1516204800007,"description":"","tags":"","company":"杰思国际娱乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":0,"copyrightId":660010,"commentThreadId":"R_AL_3_37256270","artists":[{"name":"杨美娜","id":12279820,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163109945839"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":190018,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_530986025","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409494435,"size":7603766,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":190018,"volumeDelta":-2.0},"mMusic":{"name":"","id":1409494436,"size":4562277,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":190018,"volumeDelta":-1.0},"lMusic":{"name":"","id":1409494437,"size":3041533,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":190018,"volumeDelta":-1.0},"bMusic":{"name":"","id":1409494437,"size":3041533,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":190018,"volumeDelta":-1.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"privilege":{"id":530986025,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"featured"},{"id":528864881,"type":4,"name":"Lonely One","copywriter":null,"picUrl":null,"canDislike":false,"song":{"name":"Lonely One","id":528864881,"position":1,"alias":[],"status":0,"fee":8,"copyrightId":7001,"disc":"1","no":1,"artists":[{"name":"小袋成彬","id":12109000,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"宇多田ヒカル","id":18122,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"Lonely One","id":37052972,"type":"EP/Single","size":1,"picId":109951163106638105,"blurPicUrl":"http://p1.music.126.net/uxSkSrKBP__YEHsr876X8w==/109951163106638105.jpg","companyId":0,"pic":109951163106638105,"picUrl":"http://p1.music.126.net/uxSkSrKBP__YEHsr876X8w==/109951163106638105.jpg","publishTime":1516118400007,"description":"","tags":"","company":"索尼音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":3,"copyrightId":7001,"commentThreadId":"R_AL_3_37052972","artists":[{"name":"小袋成彬","id":12109000,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},
+  {"name":"宇多田ヒカル","id":18122,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163106638105"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":281234,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_528864881","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"hMusic":{"name":"","id":1409576128,"size":11249415,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":281234,"volumeDelta":0.0},"mMusic":{"name":"","id":1409576129,"size":6749666,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":281234,"volumeDelta":0.0},"lMusic":{"name":"","id":1409576130,"size":4499792,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":281234,"volumeDelta":0.0},"bMusic":{"name":"","id":1409576130,"size":4499792,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":281234,"volumeDelta":0.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"privilege":{"id":528864881,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"featured"},{"id":530801983,"type":4,"name":"Sick Boy","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"Sick Boy","id":530801983,"position":1,"alias":[],"status":0,"fee":8,"copyrightId":7001,"disc":"1","no":1,"artists":[{"name":"The Chainsmokers","id":893484,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"Sick Boy","id":37313047,"type":"EP/Single","size":1,"picId":109951163111568139,"blurPicUrl":"http://p1.music.126.net/D99kmlqOjmnG9OA8Kni8bw==/109951163111568139.jpg","companyId":0,"pic":109951163111568139,"picUrl":"http://p1.music.126.net/D99kmlqOjmnG9OA8Kni8bw==/109951163111568139.jpg","publishTime":1516147200000,"description":"","tags":"","company":"索尼音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":3,"copyrightId":7001,"commentThreadId":"R_AL_3_37313047","artists":[{"name":"The Chainsmokers","id":893484,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163111568139"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":193933,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_530801983","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1410141114,"size":7758411,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":193933,"volumeDelta":0.0},"mMusic":{"name":"","id":1410141115,"size":4655064,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":193933,"volumeDelta":0.0},"lMusic":{"name":"","id":1410141116,"size":3103391,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":193933,"volumeDelta":0.0},"bMusic":{"name":"","id":1410141116,"size":3103391,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":193933,"volumeDelta":0.0},"mvid":5819031,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":false,"privilege":{"id":530801983,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"},{"id":528864535,"type":4,"name":"No Drama","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"No Drama","id":528864535,"position":1,"alias":[],"status":0,"fee":8,"copyrightId":7001,"disc":"1","no":1,"artists":[{"name":"Tinashé","id":45221,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"Offset","id":832703,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"No Drama","id":37052910,"type":"EP/Single","size":1,"picId":109951163111004307,"blurPicUrl":"http://p1.music.126.net/NZarKPoC-W_L7tjRR_OW3Q==/109951163111004307.jpg","companyId":0,"pic":109951163111004307,"picUrl":"http://p1.music.126.net/NZarKPoC-W_L7tjRR_OW3Q==/109951163111004307.jpg","publishTime":1516204800007,"description":"","tags":"","company":"索尼音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":3,"copyrightId":7001,"commentThreadId":"R_AL_3_37052910","artists":[{"name":"Tinashé","id":45221,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"Offset","id":832703,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163111004307"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":200176,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_528864535","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"hMusic":{"name":"","id":1409883404,"size":8008142,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":200176,"volumeDelta":-2.0},"mMusic":{"name":"","id":1409883405,"size":4804902,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":200176,"volumeDelta":-2.0},"lMusic":{"name":"","id":1409883406,"size":3203283,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":200176,"volumeDelta":-1.0},"bMusic":{"name":"","id":1409883406,"size":3203283,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":200176,"volumeDelta":-1.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":false,"privilege":{"id":528864535,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"},{"id":530995091,"type":4,"name":"选我选我","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"选我选我","id":530995091,"position":1,"alias":[],"status":0,"fee":0,"copyrightId":22023,"disc":"1","no":1,"artists":[{"name":"汪苏泷","id":5538,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"朱元冰","id":1087739,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"选我选我","id":37253380,"type":"EP/Single","size":1,"picId":109951163110580515,"blurPicUrl":"http://p1.music.126.net/dVGcWGJZ96ZiM7frbitkGw==/109951163110580515.jpg","companyId":0,"pic":109951163110580515,"picUrl":"http://p1.music.126.net/dVGcWGJZ96ZiM7frbitkGw==/109951163110580515.jpg","publishTime":1516032000007,"description":"","tags":"","company":"唐羽文化","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":1,"copyrightId":22023,"commentThreadId":"R_AL_3_37253380","artists":[{"name":"汪苏泷","id":5538,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"朱元冰","id":1087739,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163110580515"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":207000,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_530995091","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409867967,"size":8282950,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":207000,"volumeDelta":-1.0},
+  "mMusic":{"name":"","id":1409867968,"size":4969787,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":207000,"volumeDelta":-1.0},"lMusic":{"name":"","id":1409867969,"size":3313206,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":207000,"volumeDelta":-1.0},"bMusic":{"name":"","id":1409867969,"size":3313206,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":207000,"volumeDelta":-1.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":false,"privilege":{"id":530995091,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"},{"id":531040177,"type":4,"name":"一念花开","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"一念花开","id":531040177,"position":1,"alias":[],"status":0,"fee":0,"copyrightId":436013,"disc":"","no":0,"artists":[{"name":"李谷一","id":8349,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"霍尊","id":3415,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"一念花开","id":37256361,"type":"EP/Single","size":1,"picId":109951163111459324,"blurPicUrl":"http://p1.music.126.net/aTFnmHjU-KbPo03HFOQiCQ==/109951163111459324.jpg","companyId":0,"pic":109951163111459324,"picUrl":"http://p1.music.126.net/aTFnmHjU-KbPo03HFOQiCQ==/109951163111459324.jpg","publishTime":1516204800007,"description":"","tags":"","company":"星文嘉艺","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":[],"status":0,"copyrightId":436013,"commentThreadId":"R_AL_3_37256361","artists":[{"name":"李谷一","id":8349,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"霍尊","id":3415,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163111459324"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":323944,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_531040177","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409857946,"size":12960958,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":323944,"volumeDelta":0.0},"mMusic":{"name":"","id":1409857947,"size":7776592,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":323944,"volumeDelta":0.0},"lMusic":{"name":"","id":1409857948,"size":5184409,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":323944,"volumeDelta":0.0},"bMusic":{"name":"","id":1409857948,"size":5184409,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":323944,"volumeDelta":0.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":false,"privilege":{"id":531040177,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"},{"id":530986108,"type":4,"name":"爱太轻狂","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"爱太轻狂","id":530986108,"position":1,"alias":["电视剧《寻秦记》主题曲&片尾曲"],"status":0,"fee":8,"copyrightId":642010,"disc":"","no":0,"artists":[{"name":"陈翔","id":2331,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"曾咏欣","id":1164045,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"爱太轻狂","id":37253378,"type":"EP/Single","size":1,"picId":109951163110570551,"blurPicUrl":"http://p1.music.126.net/V7IqhfjeB5iceAiIS-ISPg==/109951163110570551.jpg","companyId":0,"pic":109951163110570551,"picUrl":"http://p1.music.126.net/V7IqhfjeB5iceAiIS-ISPg==/109951163110570551.jpg","publishTime":1516118400007,"description":"","tags":"","company":"智慧大狗","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":["电视剧《寻秦记》主题曲&片尾曲"],"status":0,"copyrightId":642010,"commentThreadId":"R_AL_3_37253378","artists":[{"name":"陈翔","id":2331,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},{"name":"曾咏欣","id":1164045,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163110570551"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":234008,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_530986108","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409605017,"size":9363374,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":234008,"volumeDelta":0.0},"mMusic":{"name":"","id":1409605018,"size":5618042,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":234008,"volumeDelta":0.0},"lMusic":{"name":"","id":1409605019,"size":3745376,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":234008,"volumeDelta":0.0},"bMusic":{"name":"","id":1409605019,"size":3745376,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":234008,"volumeDelta":0.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":true,"privilege":{"id":530986108,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"},{"id":529824916,"type":4,"name":"装睡的人","copywriter":null,"picUrl":null,"canDislike":true,"song":{"name":"装睡的人","id":529824916,"position":1,"alias":["电视剧《恋爱先生》插曲"],"status":0,"fee":8,"copyrightId":642010,"disc":"","no":0,"artists":[{"name":"崔子格","id":7481,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"album":{"name":"装睡的人","id":37256233,"type":"EP/Single","size":1,"picId":109951163109785731,"blurPicUrl":"http://p1.music.126.net/Xf3xsXa1CJUMN_q0bLl2dQ==/109951163109785731.jpg","companyId":0,"pic":109951163109785731,"picUrl":"http://p1.music.126.net/Xf3xsXa1CJUMN_q0bLl2dQ==/109951163109785731.jpg","publishTime":1516118400007,"description":"","tags":"","company":"智慧大狗","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0},"songs":[],"alias":["电视剧《恋爱先生》插曲"],"status":0,"copyrightId":642010,"commentThreadId":"R_AL_3_37256233","artists":[{"name":"崔子格","id":7481,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0}],"subType":"录音室版","picId_str":"109951163109785731"},"starred":false,"popularity":0.0,"score":0,"starredNum":0,"duration":216661,"playedNum":0,"dayPlays":0,"hearTime":0,"ringtone":null,"crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_529824916","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"hMusic":{"name":"","id":1409423207,"size":8669562,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":216661,"volumeDelta":-3.0},"mMusic":{"name":"","id":1409423208,"size":5201755,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":216661,"volumeDelta":-2.0},"lMusic":{"name":"","id":1409423209,"size":3467851,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":216661,"volumeDelta":-2.0},"bMusic":{"name":"","id":1409423209,"size":3467851,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":216661,"volumeDelta":-2.0},"mvid":0,"mp3Url":null,"rtype":0,"rurl":null,"exclusive":true,"privilege":{"id":529824916,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false}},"alg":"hot_server"}]}
+// 歌单详情
 mock.playdetail = {
   playlist: {
     subscribers: [],
@@ -2330,43 +2003,43 @@ mock.playdetail = {
       province: 500000,
       authStatus: 0,
       followed: false,
-      avatarUrl: "http://p1.music.126.net/MTqppCkaWuGsX88JrF6KIw==/109951163077942450.jpg",
+      avatarUrl: 'http://p1.music.126.net/MTqppCkaWuGsX88JrF6KIw==/109951163077942450.jpg',
       accountStatus: 0,
       gender: 2,
       city: 500101,
       birthday: 623260800000,
       userId: 283413472,
       userType: 0,
-      nickname: "可尼晏",
-      signature: "2017年，多看书，多锻炼，多分享音乐~",
-      description: "",
-      detailDescription: "",
+      nickname: '可尼晏',
+      signature: '2017年，多看书，多锻炼，多分享音乐~',
+      description: '',
+      detailDescription: '',
       avatarImgId: 109951163077942450,
       backgroundImgId: 109951162995625730,
-      backgroundUrl: "http://p1.music.126.net/asyI_skA7p0xVnsnqIjQxQ==/109951162995625721.jpg",
+      backgroundUrl: 'http://p1.music.126.net/asyI_skA7p0xVnsnqIjQxQ==/109951162995625721.jpg',
       authority: 0,
       mutual: false,
       expertTags: [
-        "影视原声", "华语", "流行"
+        '影视原声', '华语', '流行'
       ],
       experts: null,
       djStatus: 10,
       vipType: 10,
       remarkName: null,
-      avatarImgIdStr: "109951163077942450",
-      backgroundImgIdStr: "109951162995625721",
-      avatarImgId_str: "109951163077942450"
+      avatarImgIdStr: '109951163077942450',
+      backgroundImgIdStr: '109951162995625721',
+      avatarImgId_str: '109951163077942450'
     },
     tracks: [
       {
-        name: "化身孤岛的鲸",
+        name: '化身孤岛的鲸',
         id: 448184048,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 961358,
-            name: "不才",
+            name: '不才',
             tns: [],
             alias: []
           }
@@ -2378,13 +2051,13 @@ mock.playdetail = {
         fee: 0,
         v: 11,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35062876,
-          name: "翻唱",
-          picUrl: "http://p1.music.126.net/8EkuWEylV23h2YJVtZ26VA==/109951162826296986.jpg",
+          name: '翻唱',
+          picUrl: 'http://p1.music.126.net/8EkuWEylV23h2YJVtZ26VA==/109951162826296986.jpg',
           tns: [],
-          pic_str: "109951162826296986",
+          pic_str: '109951162826296986',
           pic: 109951162826297000
         },
         dt: 279534,
@@ -2407,7 +2080,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -2422,32 +2095,32 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1482224607140
       }, {
-        name: "和你遇到",
+        name: '和你遇到',
         id: 498880099,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 816358,
-            name: "高姗",
+            name: '高姗',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电视剧《人间至味是清欢》片头曲"],
+        alia: ['电视剧《人间至味是清欢》片头曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 28,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35934356,
-          name: "和你遇到",
-          picUrl: "http://p1.music.126.net/OSzEqqh32JVdsPIIxbIUNA==/19089720881740718.jpg",
+          name: '和你遇到',
+          picUrl: 'http://p1.music.126.net/OSzEqqh32JVdsPIIxbIUNA==/19089720881740718.jpg',
           tns: [],
-          pic_str: "19089720881740718",
+          pic_str: '19089720881740718',
           pic: 19089720881740720
         },
         dt: 278736,
@@ -2470,7 +2143,7 @@ mock.playdetail = {
           vd: -2
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -2485,37 +2158,37 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1502812800000
       }, {
-        name: "如果我爱你",
+        name: '如果我爱你',
         id: 489998494,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 11995107,
-            name: "周冬雨",
+            name: '周冬雨',
             tns: [],
             alias: []
           }, {
             id: 1049983,
-            name: "张一山",
+            name: '张一山',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电视剧《春风十里，不如你》片头曲"],
+        alia: ['电视剧《春风十里，不如你》片头曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 8,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35746164,
-          name: "如果我爱你",
-          picUrl: "http://p1.music.126.net/FvO4-KkXHpgDvIir2qsu0Q==/18999560928201496.jpg",
+          name: '如果我爱你',
+          picUrl: 'http://p1.music.126.net/FvO4-KkXHpgDvIir2qsu0Q==/18999560928201496.jpg',
           tns: [],
-          pic_str: "18999560928201496",
+          pic_str: '18999560928201496',
           pic: 18999560928201496
         },
         dt: 171389,
@@ -2538,7 +2211,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "",
+        cd: '',
         no: 0,
         rtUrl: null,
         ftype: 0,
@@ -2553,14 +2226,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1499875200007
       }, {
-        name: "寻人启事",
+        name: '寻人启事',
         id: 28561288,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9940,
-            name: "徐佳莹",
+            name: '徐佳莹',
             tns: [],
             alias: []
           }
@@ -2571,12 +2244,12 @@ mock.playdetail = {
         rt: null,
         fee: 0,
         v: 6,
-        crbt: "dbb9939ef1346b11a85454a33c4fc466",
-        cf: "",
+        crbt: 'dbb9939ef1346b11a85454a33c4fc466',
+        cf: '',
         al: {
           id: 2842017,
-          name: "寻人启事",
-          picUrl: "http://p1.music.126.net/K3wvzBKBH-W9Ht10Ec7W1A==/6040716883492649.jpg",
+          name: '寻人启事',
+          picUrl: 'http://p1.music.126.net/K3wvzBKBH-W9Ht10Ec7W1A==/6040716883492649.jpg',
           tns: [],
           pic: 6040716883492649
         },
@@ -2600,7 +2273,7 @@ mock.playdetail = {
           vd: 0.669281
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -2615,14 +2288,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1402588800007
       }, {
-        name: "外面的世界",
+        name: '外面的世界',
         id: 276904,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 8926,
-            name: "莫文蔚",
+            name: '莫文蔚',
             tns: [],
             alias: []
           }
@@ -2630,17 +2303,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 29,
-        crbt: "eaef3af6bba53f49c9d0d6dec38bb7bb",
-        cf: "",
+        crbt: 'eaef3af6bba53f49c9d0d6dec38bb7bb',
+        cf: '',
         al: {
           id: 27500,
-          name: "回蔚",
-          picUrl: "http://p1.music.126.net/4nOKJJO8FnES0V5RUABkDQ==/19193074974607829.jpg",
+          name: '回蔚',
+          picUrl: 'http://p1.music.126.net/4nOKJJO8FnES0V5RUABkDQ==/19193074974607829.jpg',
           tns: [],
-          pic_str: "19193074974607829",
+          pic_str: '19193074974607829',
           pic: 19193074974607828
         },
         dt: 273786,
@@ -2663,7 +2336,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 4,
         rtUrl: null,
         ftype: 0,
@@ -2678,14 +2351,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1245945600000
       }, {
-        name: "花海",
+        name: '花海',
         id: 185697,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 6452,
-            name: "周杰伦",
+            name: '周杰伦',
             tns: [],
             alias: []
           }
@@ -2693,15 +2366,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000006889040",
+        rt: '600902000006889040',
         fee: 8,
         v: 85,
-        crbt: "8a289b307a82998e91f4598c43c22ff4",
-        cf: "",
+        crbt: '8a289b307a82998e91f4598c43c22ff4',
+        cf: '',
         al: {
           id: 18877,
-          name: "魔杰座",
-          picUrl: "http://p1.music.126.net/uKR6EQ1dLq4i1UBhXmvXtQ==/721279627833133.jpg",
+          name: '魔杰座',
+          picUrl: 'http://p1.music.126.net/uKR6EQ1dLq4i1UBhXmvXtQ==/721279627833133.jpg',
           tns: [],
           pic: 721279627833133
         },
@@ -2725,7 +2398,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 4,
         rtUrl: null,
         ftype: 0,
@@ -2740,14 +2413,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1224000000000
       }, {
-        name: "孤独的总和",
+        name: '孤独的总和',
         id: 33516211,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1046249,
-            name: "吴汶芳",
+            name: '吴汶芳',
             tns: [],
             alias: []
           }
@@ -2759,11 +2432,11 @@ mock.playdetail = {
         fee: 8,
         v: 6,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3211381,
-          name: "坏脾气",
-          picUrl: "http://p1.music.126.net/bcPJeSv9sPeVXRUQBdzw9Q==/3318326092712732.jpg",
+          name: '坏脾气',
+          picUrl: 'http://p1.music.126.net/bcPJeSv9sPeVXRUQBdzw9Q==/3318326092712732.jpg',
           tns: [],
           pic: 3318326092712732
         },
@@ -2787,7 +2460,7 @@ mock.playdetail = {
           vd: 0.405065
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -2802,32 +2475,32 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1423411200000
       }, {
-        name: "追光者",
+        name: '追光者',
         id: 483671599,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7409,
-            name: "岑宁儿",
+            name: '岑宁儿',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电视剧《夏至未至》插曲"],
+        alia: ['电视剧《夏至未至》插曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 25,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35644242,
-          name: "夏至未至 影视原声带",
-          picUrl: "http://p1.music.126.net/ZZAQGWl9mR7g5xCyWWH3Pw==/19149094509535913.jpg",
+          name: '夏至未至 影视原声带',
+          picUrl: 'http://p1.music.126.net/ZZAQGWl9mR7g5xCyWWH3Pw==/19149094509535913.jpg',
           tns: [],
-          pic_str: "19149094509535913",
+          pic_str: '19149094509535913',
           pic: 19149094509535910
         },
         dt: 235833,
@@ -2850,7 +2523,7 @@ mock.playdetail = {
           vd: -1
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 5,
         rtUrl: null,
         ftype: 0,
@@ -2865,14 +2538,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1497283200007
       }, {
-        name: "蝴蝶的时间",
+        name: '蝴蝶的时间',
         id: 521415426,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 5771,
-            name: "许嵩",
+            name: '许嵩',
             tns: [],
             alias: []
           }
@@ -2884,13 +2557,13 @@ mock.playdetail = {
         fee: 0,
         v: 10,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 36871103,
-          name: "蝴蝶的时间",
-          picUrl: "http://p1.music.126.net/PlFNeWv_Fg9Ix0cyOgNGSg==/109951163073208728.jpg",
+          name: '蝴蝶的时间',
+          picUrl: 'http://p1.music.126.net/PlFNeWv_Fg9Ix0cyOgNGSg==/109951163073208728.jpg',
           tns: [],
-          pic_str: "109951163073208728",
+          pic_str: '109951163073208728',
           pic: 109951163073208740
         },
         dt: 320347,
@@ -2913,7 +2586,7 @@ mock.playdetail = {
           vd: -1
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -2928,14 +2601,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1511971200007
       }, {
-        name: "阴天快乐",
+        name: '阴天快乐',
         id: 28563317,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 2116,
-            name: "陈奕迅",
+            name: '陈奕迅',
             tns: [],
             alias: []
           }
@@ -2946,12 +2619,12 @@ mock.playdetail = {
         rt: null,
         fee: 8,
         v: 56,
-        crbt: "3ce8dd8625806ffa03a68031553fc215",
-        cf: "",
+        crbt: '3ce8dd8625806ffa03a68031553fc215',
+        cf: '',
         al: {
           id: 2801259,
-          name: "rice & shine",
-          picUrl: "http://p1.music.126.net/EES1U3UVWUdt_tHyiY8XAw==/5962651557619306.jpg",
+          name: 'rice & shine',
+          picUrl: 'http://p1.music.126.net/EES1U3UVWUdt_tHyiY8XAw==/5962651557619306.jpg',
           tns: [],
           pic: 5962651557619306
         },
@@ -2975,7 +2648,7 @@ mock.playdetail = {
           vd: -0.34
         },
         a: null,
-        cd: "2",
+        cd: '2',
         no: 4,
         rtUrl: null,
         ftype: 0,
@@ -2990,14 +2663,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1400083200007
       }, {
-        name: "花一开满就相爱",
+        name: '花一开满就相爱',
         id: 280038,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9061,
-            name: "那英",
+            name: '那英',
             tns: [],
             alias: []
           }
@@ -3005,15 +2678,15 @@ mock.playdetail = {
         alia: [],
         pop: 95,
         st: 0,
-        rt: "600902000008896619",
+        rt: '600902000008896619',
         fee: 0,
         v: 16,
-        crbt: "f40e3af0b9870738a2735db998c9e2fa",
-        cf: "",
+        crbt: 'f40e3af0b9870738a2735db998c9e2fa',
+        cf: '',
         al: {
           id: 27825,
-          name: "那又怎样",
-          picUrl: "http://p1.music.126.net/X4m6ULJ19SkBhMwE3XwgIw==/49478023262320.jpg",
+          name: '那又怎样',
+          picUrl: 'http://p1.music.126.net/X4m6ULJ19SkBhMwE3XwgIw==/49478023262320.jpg',
           tns: [],
           pic: 49478023262320
         },
@@ -3037,7 +2710,7 @@ mock.playdetail = {
           vd: -1.6
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 8,
         rtUrl: null,
         ftype: 0,
@@ -3052,32 +2725,32 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1317916800000
       }, {
-        name: "你",
+        name: '你',
         id: 518895890,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 11679,
-            name: "GALA",
+            name: 'GALA',
             tns: [],
             alias: []
           }
         ],
-        alia: ["动画片《机甲大师》尾曲 "],
+        alia: ['动画片《机甲大师》尾曲 '],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 13,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 36811226,
-          name: "你",
-          picUrl: "http://p1.music.126.net/pb-kc6lzHynGP6mXi-BTbg==/109951163066387823.jpg",
+          name: '你',
+          picUrl: 'http://p1.music.126.net/pb-kc6lzHynGP6mXi-BTbg==/109951163066387823.jpg',
           tns: [],
-          pic_str: "109951163066387823",
+          pic_str: '109951163066387823',
           pic: 109951163066387820
         },
         dt: 301042,
@@ -3100,7 +2773,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "",
+        cd: '',
         no: 0,
         rtUrl: null,
         ftype: 0,
@@ -3115,14 +2788,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1511107200007
       }, {
-        name: "克卜勒",
+        name: '克卜勒',
         id: 28196001,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9272,
-            name: "孙燕姿",
+            name: '孙燕姿',
             tns: [],
             alias: []
           }
@@ -3130,15 +2803,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 26,
-        crbt: "5efccfcb2cc3fa6819406a171fb9610a",
-        cf: "",
+        crbt: '5efccfcb2cc3fa6819406a171fb9610a',
+        cf: '',
         al: {
           id: 2746001,
-          name: "克卜勒",
-          picUrl: "http://p1.music.126.net/SXkAaMs163XNgZuXOfFCzw==/5837307232041044.jpg",
+          name: '克卜勒',
+          picUrl: 'http://p1.music.126.net/SXkAaMs163XNgZuXOfFCzw==/5837307232041044.jpg',
           tns: [],
           pic: 5837307232041044
         },
@@ -3162,7 +2835,7 @@ mock.playdetail = {
           vd: -1.92
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3176,16 +2849,16 @@ mock.playdetail = {
         rtype: 0,
         rurl: null,
         publishTime: 1393430400007,
-        tns: ["Kepler"]
+        tns: ['Kepler']
       }, {
-        name: "完整",
+        name: '完整',
         id: 525239743,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1058190,
-            name: "左颜",
+            name: '左颜',
             tns: [],
             alias: []
           }
@@ -3197,13 +2870,13 @@ mock.playdetail = {
         fee: 0,
         v: 4,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 37027250,
-          name: "完整",
-          picUrl: "http://p1.music.126.net/NrY7DM3IaG1VfcflxTb-LQ==/109951163092183611.jpg",
+          name: '完整',
+          picUrl: 'http://p1.music.126.net/NrY7DM3IaG1VfcflxTb-LQ==/109951163092183611.jpg',
           tns: [],
-          pic_str: "109951163092183611",
+          pic_str: '109951163092183611',
           pic: 109951163092183620
         },
         dt: 280000,
@@ -3226,7 +2899,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "",
+        cd: '',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3241,35 +2914,35 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1514131200007
       }, {
-        name: "还在这里",
+        name: '还在这里',
         id: 421203098,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 8338,
-            name: "刘亦菲",
+            name: '刘亦菲',
             tns: [],
             alias: []
           }, {
             id: 5518,
-            name: "王铮亮",
+            name: '王铮亮',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《致青春：原来你还在这里》主题曲"],
+        alia: ['电影《致青春：原来你还在这里》主题曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 3,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34751635,
-          name: "致青春•原来你还在这里 电影原声带",
-          picUrl: "http://p1.music.126.net/ySGXpvo0ivmWiLS4CBqPiw==/3437073354607429.jpg",
+          name: '致青春•原来你还在这里 电影原声带',
+          picUrl: 'http://p1.music.126.net/ySGXpvo0ivmWiLS4CBqPiw==/3437073354607429.jpg',
           tns: [],
           pic: 3437073354607429
         },
@@ -3293,7 +2966,7 @@ mock.playdetail = {
           vd: -1.41
         },
         a: null,
-        cd: "2",
+        cd: '2',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -3308,14 +2981,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1468166400000
       }, {
-        name: "致遥远的你",
+        name: '致遥远的你',
         id: 455979087,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1213008,
-            name: "龚子婕JessieG",
+            name: '龚子婕JessieG',
             tns: [],
             alias: []
           }
@@ -3327,13 +3000,13 @@ mock.playdetail = {
         fee: 0,
         v: 5,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35146902,
-          name: "致 遥远的你",
-          picUrl: "http://p1.music.126.net/vL0GssY0ir9HqRH0mr_NHA==/109951162849802648.jpg",
+          name: '致 遥远的你',
+          picUrl: 'http://p1.music.126.net/vL0GssY0ir9HqRH0mr_NHA==/109951162849802648.jpg',
           tns: [],
-          pic_str: "109951162849802648",
+          pic_str: '109951162849802648',
           pic: 109951162849802660
         },
         dt: 271751,
@@ -3356,7 +3029,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3371,14 +3044,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1485273600000
       }, {
-        name: "幸福导航",
+        name: '幸福导航',
         id: 216787,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7256,
-            name: "陈嘉唯",
+            name: '陈嘉唯',
             tns: [],
             alias: []
           }
@@ -3386,15 +3059,15 @@ mock.playdetail = {
         alia: [],
         pop: 80,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 6,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 21895,
-          name: "奇迹 Renee",
-          picUrl: "http://p1.music.126.net/dROq11sW3yCyDrT4DtF_1Q==/37383395361198.jpg",
+          name: '奇迹 Renee',
+          picUrl: 'http://p1.music.126.net/dROq11sW3yCyDrT4DtF_1Q==/37383395361198.jpg',
           tns: [],
           pic: 37383395361198
         },
@@ -3418,7 +3091,7 @@ mock.playdetail = {
           vd: -0.01
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 3,
         rtUrl: null,
         ftype: 0,
@@ -3433,14 +3106,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1225382400000
       }, {
-        name: "最后一首情歌",
+        name: '最后一首情歌',
         id: 34497630,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1146106,
-            name: "苏琛",
+            name: '苏琛',
             tns: [],
             alias: []
           }
@@ -3452,11 +3125,11 @@ mock.playdetail = {
         fee: 0,
         v: 8,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3286247,
-          name: "好说好散",
-          picUrl: "http://p1.music.126.net/cs5o_o6375tXrFcCHk7XZA==/3342515349077641.jpg",
+          name: '好说好散',
+          picUrl: 'http://p1.music.126.net/cs5o_o6375tXrFcCHk7XZA==/3342515349077641.jpg',
           tns: [],
           pic: 3342515349077641
         },
@@ -3480,7 +3153,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -3495,14 +3168,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1441555200007
       }, {
-        name: "因为",
+        name: '因为',
         id: 229532,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7652,
-            name: "范玮琪",
+            name: '范玮琪',
             tns: [],
             alias: []
           }
@@ -3510,17 +3183,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000008882929",
+        rt: '600902000008882929',
         fee: 8,
         v: 70,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 23097,
-          name: "范范的世界",
-          picUrl: "http://p1.music.126.net/vsGF2P_AIAY0Up99RLhzew==/109951163032649177.jpg",
+          name: '范范的世界',
+          picUrl: 'http://p1.music.126.net/vsGF2P_AIAY0Up99RLhzew==/109951163032649177.jpg',
           tns: [],
-          pic_str: "109951163032649177",
+          pic_str: '109951163032649177',
           pic: 109951163032649180
         },
         dt: 233012,
@@ -3543,7 +3216,7 @@ mock.playdetail = {
           vd: -0.14
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -3558,30 +3231,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 973008000000
       }, {
-        name: "你在终点等我",
+        name: '你在终点等我',
         id: 431357712,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9621,
-            name: "王菲",
+            name: '王菲',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《从你的全世界路过》主题曲"],
+        alia: ['电影《从你的全世界路过》主题曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 8,
         v: 68,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34888014,
-          name: "你在终点等我",
-          picUrl: "http://p1.music.126.net/ddhcDeGSl9VhXJLfOsNDEA==/3433774824740403.jpg",
+          name: '你在终点等我',
+          picUrl: 'http://p1.music.126.net/ddhcDeGSl9VhXJLfOsNDEA==/3433774824740403.jpg',
           tns: [],
           pic: 3433774824740403
         },
@@ -3605,7 +3278,7 @@ mock.playdetail = {
           vd: -1.1
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3620,14 +3293,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1474646400007
       }, {
-        name: "春风十里",
+        name: '春风十里',
         id: 38576323,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1195028,
-            name: "鹿先森乐队",
+            name: '鹿先森乐队',
             tns: [],
             alias: []
           }
@@ -3635,17 +3308,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 64,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34976129,
-          name: "所有的酒，都不如你",
-          picUrl: "http://p1.music.126.net/vOrGCPP-ozONI4IdlCgdfA==/18555358231321070.jpg",
+          name: '所有的酒，都不如你',
+          picUrl: 'http://p1.music.126.net/vOrGCPP-ozONI4IdlCgdfA==/18555358231321070.jpg',
           tns: [],
-          pic_str: "18555358231321070",
+          pic_str: '18555358231321070',
           pic: 18555358231321070
         },
         dt: 375928,
@@ -3668,7 +3341,7 @@ mock.playdetail = {
           vd: -2.85
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -3683,30 +3356,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1478620800007
       }, {
-        name: "心动",
+        name: '心动',
         id: 239059,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 8333,
-            name: "林晓培",
+            name: '林晓培',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《心动》主题曲"],
+        alia: ['电影《心动》主题曲'],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 0,
         v: 250,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 23965,
-          name: "心动 电影原声音乐",
-          picUrl: "http://p1.music.126.net/J1MLwGaX-fRRp6_NCXsVkg==/558551906922177.jpg",
+          name: '心动 电影原声音乐',
+          picUrl: 'http://p1.music.126.net/J1MLwGaX-fRRp6_NCXsVkg==/558551906922177.jpg',
           tns: [],
           pic: 558551906922177
         },
@@ -3730,7 +3403,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 20,
         rtUrl: null,
         ftype: 0,
@@ -3745,14 +3418,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 936115200000
       }, {
-        name: "下完这场雨 ",
+        name: '下完这场雨 ',
         id: 434550534,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3058,
-            name: "后弦",
+            name: '后弦',
             tns: [],
             alias: []
           }
@@ -3764,13 +3437,13 @@ mock.playdetail = {
         fee: 0,
         v: 13,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35123233,
-          name: "下完这场雨",
-          picUrl: "http://p1.music.126.net/xGFvzi5koJ_MxhbSlUEIBA==/18565253836706762.jpg",
+          name: '下完这场雨',
+          picUrl: 'http://p1.music.126.net/xGFvzi5koJ_MxhbSlUEIBA==/18565253836706762.jpg',
           tns: [],
-          pic_str: "18565253836706762",
+          pic_str: '18565253836706762',
           pic: 18565253836706760
         },
         dt: 271232,
@@ -3793,7 +3466,7 @@ mock.playdetail = {
           vd: -1.54
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3808,14 +3481,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1476028800007
       }, {
-        name: "爱似水仙",
+        name: '爱似水仙',
         id: 247807,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 8151,
-            name: "金海心",
+            name: '金海心',
             tns: [],
             alias: []
           }
@@ -3823,15 +3496,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000006257612",
+        rt: '600902000006257612',
         fee: 8,
         v: 27,
-        crbt: "e67148265ee4289e73d5e754ee1e9c64",
-        cf: "",
+        crbt: 'e67148265ee4289e73d5e754ee1e9c64',
+        cf: '',
         al: {
           id: 24825,
-          name: "爱似水仙",
-          picUrl: "http://p1.music.126.net/nxi-a7MCyxWz6HMKg7H4zA==/798245441765689.jpg",
+          name: '爱似水仙',
+          picUrl: 'http://p1.music.126.net/nxi-a7MCyxWz6HMKg7H4zA==/798245441765689.jpg',
           tns: [],
           pic: 798245441765689
         },
@@ -3855,7 +3528,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -3870,30 +3543,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1238428800000
       }, {
-        name: "假如爱有天意",
+        name: '假如爱有天意',
         id: 33248189,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3695,
-            name: "李健",
+            name: '李健',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《太平轮·彼岸》推广曲"],
+        alia: ['电影《太平轮·彼岸》推广曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 27,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3233232,
-          name: "李健",
-          picUrl: "http://p1.music.126.net/IwHep8WCIzf2cflSEVUMdQ==/7929677861304714.jpg",
+          name: '李健',
+          picUrl: 'http://p1.music.126.net/IwHep8WCIzf2cflSEVUMdQ==/7929677861304714.jpg',
           tns: [],
           pic: 7929677861304714
         },
@@ -3917,7 +3590,7 @@ mock.playdetail = {
           vd: -1.74
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 10,
         rtUrl: null,
         ftype: 0,
@@ -3932,14 +3605,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1439222400007
       }, {
-        name: "踮起脚尖爱",
+        name: '踮起脚尖爱',
         id: 392522,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 8089,
-            name: "洪佩瑜",
+            name: '洪佩瑜',
             tns: [],
             alias: []
           }
@@ -3947,15 +3620,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000009125719",
+        rt: '600902000009125719',
         fee: 8,
         v: 678,
-        crbt: "7aca7d46f54ad194cd6b25a5b138c055",
-        cf: "",
+        crbt: '7aca7d46f54ad194cd6b25a5b138c055',
+        cf: '',
         al: {
           id: 38882,
-          name: "我可能不会爱你 电视原声带",
-          picUrl: "http://p1.music.126.net/VBlpnDE2dQjAbICEdwhHQQ==/79164837217451.jpg",
+          name: '我可能不会爱你 电视原声带',
+          picUrl: 'http://p1.music.126.net/VBlpnDE2dQjAbICEdwhHQQ==/79164837217451.jpg',
           tns: [],
           pic: 79164837217451
         },
@@ -3979,7 +3652,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 7,
         rtUrl: null,
         ftype: 0,
@@ -3994,14 +3667,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1318867200000
       }, {
-        name: "凉城",
+        name: '凉城',
         id: 442314991,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9255,
-            name: "任然",
+            name: '任然',
             tns: [],
             alias: []
           }
@@ -4013,13 +3686,13 @@ mock.playdetail = {
         fee: 8,
         v: 8,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35004464,
-          name: "后继者",
-          picUrl: "http://p1.music.126.net/9RQepityGQUfi5Rbcz7xCQ==/18747772766555079.jpg",
+          name: '后继者',
+          picUrl: 'http://p1.music.126.net/9RQepityGQUfi5Rbcz7xCQ==/18747772766555079.jpg',
           tns: [],
-          pic_str: "18747772766555079",
+          pic_str: '18747772766555079',
           pic: 18747772766555080
         },
         dt: 232003,
@@ -4042,7 +3715,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -4057,14 +3730,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1479830400007
       }, {
-        name: "你是我的风景",
+        name: '你是我的风景',
         id: 240147,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7907,
-            name: "何洁",
+            name: '何洁',
             tns: [],
             alias: []
           }
@@ -4072,15 +3745,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 0,
         v: 12,
-        crbt: "23513ada14604e87d8f3376a6e181c68",
-        cf: "",
+        crbt: '23513ada14604e87d8f3376a6e181c68',
+        cf: '',
         al: {
           id: 24078,
-          name: "想要回到 何洁",
-          picUrl: "http://p1.music.126.net/h7BS81NH0UX2lL8ViH3bZQ==/65970697681952.jpg",
+          name: '想要回到 何洁',
+          picUrl: 'http://p1.music.126.net/h7BS81NH0UX2lL8ViH3bZQ==/65970697681952.jpg',
           tns: [],
           pic: 65970697681952
         },
@@ -4104,7 +3777,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 6,
         rtUrl: null,
         ftype: 0,
@@ -4119,19 +3792,19 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1283961600000
       }, {
-        name: "爱神",
+        name: '爱神',
         id: 27579268,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1021056,
-            name: "胡杨林",
+            name: '胡杨林',
             tns: [],
             alias: []
           }, {
             id: 6492,
-            name: "钟汉良",
+            name: '钟汉良',
             tns: [],
             alias: []
           }
@@ -4139,15 +3812,15 @@ mock.playdetail = {
         alia: [],
         pop: 85,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 0,
         v: 666,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 2639487,
-          name: "爱神",
-          picUrl: "http://p1.music.126.net/cSrGdrf7jIZ8mYzEILSk_w==/5662484883116650.jpg",
+          name: '爱神',
+          picUrl: 'http://p1.music.126.net/cSrGdrf7jIZ8mYzEILSk_w==/5662484883116650.jpg',
           tns: [],
           pic: 5662484883116650
         },
@@ -4171,7 +3844,7 @@ mock.playdetail = {
           vd: -1.56
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4186,30 +3859,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1361894400007
       }, {
-        name: "全世界谁倾听你 ",
+        name: '全世界谁倾听你 ',
         id: 432509483,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3685,
-            name: "林宥嘉",
+            name: '林宥嘉',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《从你的全世界路过》插曲"],
+        alia: ['电影《从你的全世界路过》插曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 8,
         v: 13,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34897385,
-          name: "全世界谁倾听你",
-          picUrl: "http://p1.music.126.net/PxJ9SUVfKMayPUxVbf51pg==/3438172871728558.jpg",
+          name: '全世界谁倾听你',
+          picUrl: 'http://p1.music.126.net/PxJ9SUVfKMayPUxVbf51pg==/3438172871728558.jpg',
           tns: [],
           pic: 3438172871728558
         },
@@ -4233,7 +3906,7 @@ mock.playdetail = {
           vd: -0.23
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4248,14 +3921,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1475251200007
       }, {
-        name: "半路",
+        name: '半路',
         id: 306937,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9944,
-            name: "薛凯琪",
+            name: '薛凯琪',
             tns: [],
             alias: []
           }
@@ -4263,17 +3936,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 13,
-        crbt: "eaef3af6bba53f49f7b72c8a7748b10b",
-        cf: "",
+        crbt: 'eaef3af6bba53f49f7b72c8a7748b10b',
+        cf: '',
         al: {
           id: 30480,
-          name: "It's My Day",
-          picUrl: "http://p1.music.126.net/NvHbvXWmXljkuoX1Up2eYA==/109951163061823860.jpg",
+          name: 'It"s My Day',
+          picUrl: 'http://p1.music.126.net/NvHbvXWmXljkuoX1Up2eYA==/109951163061823860.jpg',
           tns: [],
-          pic_str: "109951163061823860",
+          pic_str: '109951163061823860',
           pic: 109951163061823860
         },
         dt: 277499,
@@ -4296,7 +3969,7 @@ mock.playdetail = {
           vd: -0.46
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 7,
         rtUrl: null,
         ftype: 0,
@@ -4311,14 +3984,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1208448000000
       }, {
-        name: "漂洋过海来看你",
+        name: '漂洋过海来看你',
         id: 30903117,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1030001,
-            name: "周深",
+            name: '周深',
             tns: [],
             alias: []
           }
@@ -4330,11 +4003,11 @@ mock.playdetail = {
         fee: 0,
         v: 5,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3106026,
-          name: "漂洋过海来看你",
-          picUrl: "http://p1.music.126.net/nghrV1_ZW6lht9Ue7r4Ffg==/7697680906845029.jpg",
+          name: '漂洋过海来看你',
+          picUrl: 'http://p1.music.126.net/nghrV1_ZW6lht9Ue7r4Ffg==/7697680906845029.jpg',
           tns: [],
           pic: 7697680906845029
         },
@@ -4358,7 +4031,7 @@ mock.playdetail = {
           vd: 0.987998
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4373,14 +4046,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1409846400007
       }, {
-        name: "如果有来生",
+        name: '如果有来生',
         id: 293948,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9489,
-            name: "谭维维",
+            name: '谭维维',
             tns: [],
             alias: []
           }
@@ -4388,17 +4061,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000008438725",
+        rt: '600902000008438725',
         fee: 8,
         v: 283,
-        crbt: "4691039e4c3a9425967376b429b8ba49",
-        cf: "",
+        crbt: '4691039e4c3a9425967376b429b8ba49',
+        cf: '',
         al: {
           id: 29193,
-          name: "谭某某",
-          picUrl: "http://p1.music.126.net/V1oiaFl104PH0yuHLCKVuQ==/109951163061827624.jpg",
+          name: '谭某某',
+          picUrl: 'http://p1.music.126.net/V1oiaFl104PH0yuHLCKVuQ==/109951163061827624.jpg',
           tns: [],
-          pic_str: "109951163061827624",
+          pic_str: '109951163061827624',
           pic: 109951163061827620
         },
         dt: 247266,
@@ -4421,7 +4094,7 @@ mock.playdetail = {
           vd: -2
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4436,14 +4109,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1269878400000
       }, {
-        name: "小瓶子",
+        name: '小瓶子',
         id: 526464396,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3684,
-            name: "林俊杰",
+            name: '林俊杰',
             tns: [],
             alias: []
           }
@@ -4455,13 +4128,13 @@ mock.playdetail = {
         fee: 4,
         v: 158,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 37085119,
-          name: "伟大的渺小",
-          picUrl: "http://p1.music.126.net/xdgsjM7uQxR7o1xSKGXlCg==/109951163099447939.jpg",
+          name: '伟大的渺小',
+          picUrl: 'http://p1.music.126.net/xdgsjM7uQxR7o1xSKGXlCg==/109951163099447939.jpg',
           tns: [],
-          pic_str: "109951163099447939",
+          pic_str: '109951163099447939',
           pic: 109951163099447940
         },
         dt: 252626,
@@ -4484,7 +4157,7 @@ mock.playdetail = {
           vd: -1
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 10,
         rtUrl: null,
         ftype: 0,
@@ -4499,14 +4172,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1514390400007
       }, {
-        name: "我们终究会牵手旅行",
+        name: '我们终究会牵手旅行',
         id: 306680,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9941,
-            name: "许飞",
+            name: '许飞',
             tns: [],
             alias: []
           }
@@ -4514,15 +4187,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 37,
-        crbt: "9d7aac1277e1f7d453c7c6c75ebb9ac5",
-        cf: "",
+        crbt: '9d7aac1277e1f7d453c7c6c75ebb9ac5',
+        cf: '',
         al: {
           id: 30454,
-          name: "许飞",
-          picUrl: "http://p1.music.126.net/4WCa9RLCxIRPYG8AHGmtFQ==/67070209310523.jpg",
+          name: '许飞',
+          picUrl: 'http://p1.music.126.net/4WCa9RLCxIRPYG8AHGmtFQ==/67070209310523.jpg',
           tns: [],
           pic: 67070209310523
         },
@@ -4546,7 +4219,7 @@ mock.playdetail = {
           vd: -6.02
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 9,
         rtUrl: null,
         ftype: 0,
@@ -4561,14 +4234,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1340553600000
       }, {
-        name: "信仰",
+        name: '信仰',
         id: 25643328,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 6454,
-            name: "张信哲",
+            name: '张信哲',
             tns: [],
             alias: []
           }
@@ -4576,17 +4249,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 73,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 2263172,
-          name: "Jeff情歌精选",
-          picUrl: "http://p1.music.126.net/0ITETv8OI3x2XOnsLlx_Jw==/109951163067344307.jpg",
+          name: 'Jeff情歌精选',
+          picUrl: 'http://p1.music.126.net/0ITETv8OI3x2XOnsLlx_Jw==/109951163067344307.jpg',
           tns: [],
-          pic_str: "109951163067344307",
+          pic_str: '109951163067344307',
           pic: 109951163067344300
         },
         dt: 254198,
@@ -4609,7 +4282,7 @@ mock.playdetail = {
           vd: -0.5
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 9,
         rtUrl: null,
         ftype: 0,
@@ -4624,14 +4297,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1118332800007
       }, {
-        name: "等风也等你",
+        name: '等风也等你',
         id: 479370549,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 12291561,
-            name: "XIXE",
+            name: 'XIXE',
             tns: [],
             alias: []
           }
@@ -4643,13 +4316,13 @@ mock.playdetail = {
         fee: 0,
         v: 8,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35533238,
-          name: "等风也等你",
-          picUrl: "http://p1.music.126.net/hy5PnI7ntvAuTmYDDyrbig==/109951162931151633.jpg",
+          name: '等风也等你',
+          picUrl: 'http://p1.music.126.net/hy5PnI7ntvAuTmYDDyrbig==/109951162931151633.jpg',
           tns: [],
-          pic_str: "109951162931151633",
+          pic_str: '109951162931151633',
           pic: 109951162931151630
         },
         dt: 274076,
@@ -4672,7 +4345,7 @@ mock.playdetail = {
           vd: -2
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4687,14 +4360,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1495158192846
       }, {
-        name: "雪人",
+        name: '雪人',
         id: 230522,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7662,
-            name: "范晓萱",
+            name: '范晓萱',
             tns: [],
             alias: []
           }
@@ -4702,17 +4375,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000008867125",
+        rt: '600902000008867125',
         fee: 8,
         v: 81,
-        crbt: "3dec1abc5a8d7f81bbb7f49ad9dd655e",
-        cf: "",
+        crbt: '3dec1abc5a8d7f81bbb7f49ad9dd655e',
+        cf: '',
         al: {
           id: 23188,
-          name: "好想谈恋爱",
-          picUrl: "http://p1.music.126.net/EGuL8i3mbYUMLM7hlTxUCw==/18940187300344492.jpg",
+          name: '好想谈恋爱',
+          picUrl: 'http://p1.music.126.net/EGuL8i3mbYUMLM7hlTxUCw==/18940187300344492.jpg',
           tns: [],
-          pic_str: "18940187300344492",
+          pic_str: '18940187300344492',
           pic: 18940187300344492
         },
         dt: 282000,
@@ -4735,7 +4408,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4750,30 +4423,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 849369600000
       }, {
-        name: "请跟我联络 ",
+        name: '请跟我联络 ',
         id: 37092868,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3765,
-            name: "李易峰",
+            name: '李易峰',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《怦然星动》主题曲"],
+        alia: ['电影《怦然星动》主题曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 5,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3410480,
-          name: "请跟我联络",
-          picUrl: "http://p1.music.126.net/SbI80JUZkkRgCdyRmbFlew==/3422779699603586.jpg",
+          name: '请跟我联络',
+          picUrl: 'http://p1.music.126.net/SbI80JUZkkRgCdyRmbFlew==/3422779699603586.jpg',
           tns: [],
           pic: 3422779699603586
         },
@@ -4797,7 +4470,7 @@ mock.playdetail = {
           vd: -2.51
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 0,
         rtUrl: null,
         ftype: 0,
@@ -4812,14 +4485,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1448380800007
       }, {
-        name: "不找了",
+        name: '不找了',
         id: 29850531,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1044203,
-            name: "郭旭",
+            name: '郭旭',
             tns: [],
             alias: []
           }
@@ -4831,13 +4504,13 @@ mock.playdetail = {
         fee: 0,
         v: 52,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3086393,
-          name: "郭旭的Demo",
-          picUrl: "http://p1.music.126.net/o25ptaSygDb2rVdTpIKexw==/17793396672429120.jpg",
+          name: '郭旭的Demo',
+          picUrl: 'http://p1.music.126.net/o25ptaSygDb2rVdTpIKexw==/17793396672429120.jpg',
           tns: [],
-          pic_str: "17793396672429120",
+          pic_str: '17793396672429120',
           pic: 17793396672429120
         },
         dt: 249129,
@@ -4850,7 +4523,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4865,14 +4538,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1417363200007
       }, {
-        name: "你好吗 天气好吗",
+        name: '你好吗 天气好吗',
         id: 227699,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 7600,
-            name: "邓福如",
+            name: '邓福如',
             tns: [],
             alias: []
           }
@@ -4880,15 +4553,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000009047100",
+        rt: '600902000009047100',
         fee: 8,
         v: 199,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 22942,
-          name: "原来如此!! A-FÜ",
-          picUrl: "http://p1.music.126.net/2t-Rcq3yNvAy5Dgx_DN1wA==/87960930222969.jpg",
+          name: '原来如此!! A-FÜ',
+          picUrl: 'http://p1.music.126.net/2t-Rcq3yNvAy5Dgx_DN1wA==/87960930222969.jpg',
           tns: [],
           pic: 87960930222969
         },
@@ -4912,7 +4585,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 7,
         rtUrl: null,
         ftype: 0,
@@ -4927,32 +4600,32 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1306425600000
       }, {
-        name: "守候",
+        name: '守候',
         id: 455345562,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 6891,
-            name: "赵英俊",
+            name: '赵英俊',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《大闹天竺》主题曲"],
+        alia: ['电影《大闹天竺》主题曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 0,
         v: 6,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35138625,
-          name: "守候",
-          picUrl: "http://p1.music.126.net/pujZNkCLsxfPFMXiKsxahg==/18760966906452998.jpg",
+          name: '守候',
+          picUrl: 'http://p1.music.126.net/pujZNkCLsxfPFMXiKsxahg==/18760966906452998.jpg',
           tns: [],
-          pic_str: "18760966906452998",
+          pic_str: '18760966906452998',
           pic: 18760966906453000
         },
         dt: 245744,
@@ -4975,7 +4648,7 @@ mock.playdetail = {
           vd: 0.250364
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -4990,19 +4663,19 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1485273600007
       }, {
-        name: "那一天从梦中醒来",
+        name: '那一天从梦中醒来',
         id: 526680601,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 12025552,
-            name: "双笙",
+            name: '双笙',
             tns: [],
             alias: []
           }, {
             id: 1195087,
-            name: "秋风MusiX",
+            name: '秋风MusiX',
             tns: [],
             alias: []
           }
@@ -5014,13 +4687,13 @@ mock.playdetail = {
         fee: 0,
         v: 8,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 37094080,
-          name: "那一天从梦中醒来",
-          picUrl: "http://p1.music.126.net/OaEKnO8ycGQ-u_NRicA3sQ==/109951163094550225.jpg",
+          name: '那一天从梦中醒来',
+          picUrl: 'http://p1.music.126.net/OaEKnO8ycGQ-u_NRicA3sQ==/109951163094550225.jpg',
           tns: [],
-          pic_str: "109951163094550225",
+          pic_str: '109951163094550225',
           pic: 109951163094550220
         },
         dt: 227369,
@@ -5043,7 +4716,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "",
+        cd: '',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -5058,14 +4731,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1514451098087
       }, {
-        name: "像风一样",
+        name: '像风一样',
         id: 516657051,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 5781,
-            name: "薛之谦",
+            name: '薛之谦',
             tns: [],
             alias: []
           }
@@ -5077,13 +4750,13 @@ mock.playdetail = {
         fee: 0,
         v: 19,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 36855053,
-          name: "渡",
-          picUrl: "http://p1.music.126.net/fNbj5uDwltSDLbETdnEYYQ==/109951163069265719.jpg",
+          name: '渡',
+          picUrl: 'http://p1.music.126.net/fNbj5uDwltSDLbETdnEYYQ==/109951163069265719.jpg',
           tns: [],
-          pic_str: "109951163069265719",
+          pic_str: '109951163069265719',
           pic: 109951163069265710
         },
         dt: 255111,
@@ -5106,7 +4779,7 @@ mock.playdetail = {
           vd: -1
         },
         a: null,
-        cd: "",
+        cd: '',
         no: 3,
         rtUrl: null,
         ftype: 0,
@@ -5121,32 +4794,32 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1509638400007
       }, {
-        name: "地下铁",
+        name: '地下铁',
         id: 307251,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9945,
-            name: "萧亚轩",
+            name: '萧亚轩',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《地下铁》主题曲"],
+        alia: ['电影《地下铁》主题曲'],
         pop: 90,
         st: 0,
-        rt: "600902000000818898",
+        rt: '600902000000818898',
         fee: 8,
         v: 27,
-        crbt: "eaef3af6bba53f4948aeefa35d6f2f2f",
-        cf: "",
+        crbt: 'eaef3af6bba53f4948aeefa35d6f2f2f',
+        cf: '',
         al: {
           id: 30511,
-          name: "第5大道",
-          picUrl: "http://p1.music.126.net/nXmp9Cb0IGO9AAPFHw2fXw==/18815942488082749.jpg",
+          name: '第5大道',
+          picUrl: 'http://p1.music.126.net/nXmp9Cb0IGO9AAPFHw2fXw==/18815942488082749.jpg',
           tns: [],
-          pic_str: "18815942488082749",
+          pic_str: '18815942488082749',
           pic: 18815942488082748
         },
         dt: 280581,
@@ -5169,7 +4842,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 3,
         rtUrl: null,
         ftype: 0,
@@ -5184,14 +4857,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1070208000000
       }, {
-        name: "我一定会爱上你",
+        name: '我一定会爱上你',
         id: 479219330,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 1039895,
-            name: "谢春花",
+            name: '谢春花',
             tns: [],
             alias: []
           }
@@ -5203,13 +4876,13 @@ mock.playdetail = {
         fee: 0,
         v: 12,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 35536082,
-          name: "我一定会爱上你",
-          picUrl: "http://p1.music.126.net/TREN9h3lkN3ttLrfcXSk5w==/19209567649011848.jpg",
+          name: '我一定会爱上你',
+          picUrl: 'http://p1.music.126.net/TREN9h3lkN3ttLrfcXSk5w==/19209567649011848.jpg',
           tns: [],
-          pic_str: "19209567649011848",
+          pic_str: '19209567649011848',
           pic: 19209567649011850
         },
         dt: 206386,
@@ -5232,7 +4905,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -5247,14 +4920,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1495468800007
       }, {
-        name: "旋转门",
+        name: '旋转门',
         id: 287794,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9275,
-            name: "苏慧伦",
+            name: '苏慧伦',
             tns: [],
             alias: []
           }
@@ -5262,15 +4935,15 @@ mock.playdetail = {
         alia: [],
         pop: 90,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 8,
         v: 7,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 28566,
-          name: "左撇子 旋转门",
-          picUrl: "http://p1.music.126.net/GMMPgJxNFREOsoiZ1FE00w==/29686813966786.jpg",
+          name: '左撇子 旋转门',
+          picUrl: 'http://p1.music.126.net/GMMPgJxNFREOsoiZ1FE00w==/29686813966786.jpg',
           tns: [],
           pic: 29686813966786
         },
@@ -5294,7 +4967,7 @@ mock.playdetail = {
           vd: -0.85
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 4,
         rtUrl: null,
         ftype: 0,
@@ -5309,35 +4982,35 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1195488000000
       }, {
-        name: "为了遇见你",
+        name: '为了遇见你',
         id: 26349280,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9203,
-            name: "戚薇",
+            name: '戚薇',
             tns: [],
             alias: []
           }, {
             id: 6066,
-            name: "杨宗纬",
+            name: '杨宗纬',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电视剧《爱情自有天意》主题曲"],
+        alia: ['电视剧《爱情自有天意》主题曲'],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 0,
         v: 687,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 2462048,
-          name: "爱情自有天意 电视原声带",
-          picUrl: "http://p1.music.126.net/-ZOuW19WTwR1-Ung4flyXw==/3441471402722537.jpg",
+          name: '爱情自有天意 电视原声带',
+          picUrl: 'http://p1.music.126.net/-ZOuW19WTwR1-Ung4flyXw==/3441471402722537.jpg',
           tns: [],
           pic: 3441471402722537
         },
@@ -5361,7 +5034,7 @@ mock.playdetail = {
           vd: -0.73
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 2,
         rtUrl: null,
         ftype: 0,
@@ -5376,14 +5049,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1361376000007
       }, {
-        name: "大约在冬季",
+        name: '大约在冬季',
         id: 143474,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 4813,
-            name: "齐秦",
+            name: '齐秦',
             tns: [],
             alias: []
           }
@@ -5391,17 +5064,17 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000009078067",
+        rt: '600902000009078067',
         fee: 8,
         v: 19,
-        crbt: "c1f1a06916d63431c23cb95430a57614",
-        cf: "",
+        crbt: 'c1f1a06916d63431c23cb95430a57614',
+        cf: '',
         al: {
           id: 14305,
-          name: "冬雨",
-          picUrl: "http://p1.music.126.net/ximNApLXC0YmsxsT2289ww==/109951163021193903.jpg",
+          name: '冬雨',
+          picUrl: 'http://p1.music.126.net/ximNApLXC0YmsxsT2289ww==/109951163021193903.jpg',
           tns: [],
-          pic_str: "109951163021193903",
+          pic_str: '109951163021193903',
           pic: 109951163021193900
         },
         dt: 234475,
@@ -5424,7 +5097,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 8,
         rtUrl: null,
         ftype: 0,
@@ -5439,14 +5112,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 539107200000
       }, {
-        name: "月 ",
+        name: '月 ',
         id: 429769229,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 711683,
-            name: "好妹妹乐队",
+            name: '好妹妹乐队',
             tns: [],
             alias: []
           }
@@ -5458,13 +5131,13 @@ mock.playdetail = {
         fee: 8,
         v: 11,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34869292,
-          name: "月",
-          picUrl: "http://p1.music.126.net/6itpN_CRENPvit__InWzFA==/18791753230426210.jpg",
+          name: '月',
+          picUrl: 'http://p1.music.126.net/6itpN_CRENPvit__InWzFA==/18791753230426210.jpg',
           tns: [],
-          pic_str: "18791753230426210",
+          pic_str: '18791753230426210',
           pic: 18791753230426210
         },
         dt: 274795,
@@ -5487,7 +5160,7 @@ mock.playdetail = {
           vd: -0.000265076
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -5502,30 +5175,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1473696000007
       }, {
-        name: "下个转弯是你吗",
+        name: '下个转弯是你吗',
         id: 29764637,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 10199,
-            name: "杨丞琳",
+            name: '杨丞琳',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电视剧《一见不钟情》片尾曲"],
+        alia: ['电视剧《一见不钟情》片尾曲'],
         pop: 95,
         st: 0,
         rt: null,
         fee: 8,
         v: 21,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3075076,
-          name: "双丞戏",
-          picUrl: "http://p1.music.126.net/e7ql2GzxDZIsynH7jcdRlA==/2540971374516489.jpg",
+          name: '双丞戏',
+          picUrl: 'http://p1.music.126.net/e7ql2GzxDZIsynH7jcdRlA==/2540971374516489.jpg',
           tns: [],
           pic: 2540971374516489
         },
@@ -5549,7 +5222,7 @@ mock.playdetail = {
           vd: -2.87
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 5,
         rtUrl: null,
         ftype: 0,
@@ -5564,14 +5237,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1418313600007
       }, {
-        name: "我的歌声里",
+        name: '我的歌声里',
         id: 25713022,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 9178,
-            name: "曲婉婷",
+            name: '曲婉婷',
             tns: [],
             alias: []
           }
@@ -5579,15 +5252,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "600902000009390282",
+        rt: '600902000009390282',
         fee: 8,
         v: 12,
-        crbt: "5efccfcb2cc3fa68fa6dff0068d03cb2",
-        cf: "",
+        crbt: '5efccfcb2cc3fa68fa6dff0068d03cb2',
+        cf: '',
         al: {
           id: 2289002,
-          name: "Everything In The World (白金庆功版)",
-          picUrl: "http://p1.music.126.net/8jt2KnGDF0qMP9JbidOtVA==/573945069746475.jpg",
+          name: 'Everything In The World (白金庆功版)',
+          picUrl: 'http://p1.music.126.net/8jt2KnGDF0qMP9JbidOtVA==/573945069746475.jpg',
           tns: [],
           pic: 573945069746475
         },
@@ -5611,7 +5284,7 @@ mock.playdetail = {
           vd: -1.55
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 12,
         rtUrl: null,
         ftype: 0,
@@ -5626,30 +5299,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1354809600007
       }, {
-        name: "不将就",
+        name: '不将就',
         id: 31654343,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 4292,
-            name: "李荣浩",
+            name: '李荣浩',
             tns: [],
             alias: []
           }
         ],
-        alia: ["电影《何以笙箫默》片尾主题曲"],
+        alia: ['电影《何以笙箫默》片尾主题曲'],
         pop: 100,
         st: 0,
         rt: null,
         fee: 8,
         v: 20,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 3131104,
-          name: "不将就",
-          picUrl: "http://p1.music.126.net/y9LLAuZ-CYMFPqDBq4SNYw==/7823025232375425.jpg",
+          name: '不将就',
+          picUrl: 'http://p1.music.126.net/y9LLAuZ-CYMFPqDBq4SNYw==/7823025232375425.jpg',
           tns: [],
           pic: 7823025232375425
         },
@@ -5673,7 +5346,7 @@ mock.playdetail = {
           vd: 0
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -5688,14 +5361,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1430150400007
       }, {
-        name: "想遇见一个人",
+        name: '想遇见一个人',
         id: 417613781,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 12062139,
-            name: "曾咏熙",
+            name: '曾咏熙',
             tns: [],
             alias: []
           }
@@ -5707,11 +5380,11 @@ mock.playdetail = {
         fee: 0,
         v: 6,
         crbt: null,
-        cf: "",
+        cf: '',
         al: {
           id: 34726977,
-          name: "想遇见",
-          picUrl: "http://p1.music.126.net/26i7oxKU2jUwRXLZ--BY5w==/3417282143503175.jpg",
+          name: '想遇见',
+          picUrl: 'http://p1.music.126.net/26i7oxKU2jUwRXLZ--BY5w==/3417282143503175.jpg',
           tns: [],
           pic: 3417282143503175
         },
@@ -5735,7 +5408,7 @@ mock.playdetail = {
           vd: -0.8
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 1,
         rtUrl: null,
         ftype: 0,
@@ -5750,30 +5423,30 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1466570507640
       }, {
-        name: "爱不单行",
+        name: '爱不单行',
         id: 26082851,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 3694,
-            name: "罗志祥",
+            name: '罗志祥',
             tns: [],
             alias: []
           }
         ],
-        alia: ["偶像剧《海派甜心》插曲"],
+        alia: ['偶像剧《海派甜心》插曲'],
         pop: 100,
         st: 0,
-        rt: "600902000008119184",
+        rt: '600902000008119184',
         fee: 8,
         v: 20,
-        crbt: "5f69ddc07a92b82653c7c6c75ebb9ac5",
-        cf: "",
+        crbt: '5f69ddc07a92b82653c7c6c75ebb9ac5',
+        cf: '',
         al: {
           id: 2379124,
-          name: "罗生门",
-          picUrl: "http://p1.music.126.net/1PIYxzU0mTwLxT60Kyc9jg==/6646547789962427.jpg",
+          name: '罗生门',
+          picUrl: 'http://p1.music.126.net/1PIYxzU0mTwLxT60Kyc9jg==/6646547789962427.jpg',
           tns: [],
           pic: 6646547789962427
         },
@@ -5797,7 +5470,7 @@ mock.playdetail = {
           vd: -2.95
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 7,
         rtUrl: null,
         ftype: 0,
@@ -5812,14 +5485,14 @@ mock.playdetail = {
         rurl: null,
         publishTime: 1263484800007
       }, {
-        name: "终于等到你",
+        name: '终于等到你',
         id: 27836179,
         pst: 0,
         t: 0,
         ar: [
           {
             id: 10561,
-            name: "张靓颖",
+            name: '张靓颖',
             tns: [],
             alias: []
           }
@@ -5827,15 +5500,15 @@ mock.playdetail = {
         alia: [],
         pop: 100,
         st: 0,
-        rt: "",
+        rt: '',
         fee: 0,
         v: 25,
-        crbt: "9bab5d108f4836736680a70ff6dcfc01",
-        cf: "",
+        crbt: '9bab5d108f4836736680a70ff6dcfc01',
+        cf: '',
         al: {
           id: 2685023,
-          name: "终于等到你",
-          picUrl: "http://p1.music.126.net/vVmZs-NuZBMPrQxn-doG-w==/5715261441290700.jpg",
+          name: '终于等到你',
+          picUrl: 'http://p1.music.126.net/vVmZs-NuZBMPrQxn-doG-w==/5715261441290700.jpg',
           tns: [],
           pic: 5715261441290700
         },
@@ -5859,7 +5532,7 @@ mock.playdetail = {
           vd: -2.87
         },
         a: null,
-        cd: "1",
+        cd: '1',
         no: 0,
         rtUrl: null,
         ftype: 0,
@@ -6058,23 +5731,23 @@ mock.playdetail = {
     newImported: false,
     trackUpdateTime: 1515086173095,
     highQuality: false,
-    commentThreadId: "A_PL_0_2031595851",
-    coverImgUrl: "http://p1.music.126.net/7ACmNrSV20eUnAsD98F7xQ==/109951163093989641.jpg",
+    commentThreadId: 'A_PL_0_2031595851',
+    coverImgUrl: 'http://p1.music.126.net/7ACmNrSV20eUnAsD98F7xQ==/109951163093989641.jpg',
     specialType: 0,
     ordered: true,
     tags: [
-      "华语", "流行", "思念"
+      '华语', '流行', '思念'
     ],
     subscribedCount: 13254,
     cloudTrackCount: 0,
-    description: "微博看到歌单标题那句话，顿时感觉很扎心。 我知道明天太阳会升起，所以我等天明。 我知道春天会带走冰雪，所以我等来年。 可是在外流浪的你啊，何时才是你的归期。 有" +
-        "人走远了，我等你回； 有人没出现，我等你来。 祝福所有等待，都有美好结局。 气温下降，好多地方下雪了，在这思念的季节里，请注意保暖，在等待里好好爱自己。 封面：" +
-        "林依晨 《爱情冻住了》剧照",
+    description: '微博看到歌单标题那句话，顿时感觉很扎心。 我知道明天太阳会升起，所以我等天明。 我知道春天会带走冰雪，所以我等来年。 可是在外流浪的你啊，何时才是你的归期。 有' +
+        '人走远了，我等你回； 有人没出现，我等你来。 祝福所有等待，都有美好结局。 气温下降，好多地方下雪了，在这思念的季节里，请注意保暖，在等待里好好爱自己。 封面：' +
+        '林依晨 《爱情冻住了》剧照',
     status: 0,
-    name: "华语||我不怕等待，我怕你不来",
+    name: '华语||我不怕等待，我怕你不来',
     id: 2031595851,
     shareCount: 82,
-    coverImgId_str: "109951163093989641",
+    coverImgId_str: '109951163093989641',
     commentCount: 258
   },
   code: 200,

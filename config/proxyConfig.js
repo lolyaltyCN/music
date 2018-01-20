@@ -1,4 +1,4 @@
-const host = 'http://localhost:4001'
+const host = 'http://localhost:4001/api'
 
 module.exports = {
     proxy: {
