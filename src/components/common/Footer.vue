@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <ul>
-      <li v-for="item in footerList">
+      <li v-for="(item,i) in footerList" :key='i'>
         <router-link :to="item.hash">
           <dl v-bind:class="{active:item.select}">
             <dt>

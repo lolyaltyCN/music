@@ -7,7 +7,10 @@ const state = {
 }
 
 const getters = {
-  playlistDetail: state => state.playlistDetailList
+  playlistDetail: state => {
+    console.log('获取state')
+    return state.playlistDetailList
+  }
 }
 
 const actions = {
@@ -15,6 +18,7 @@ const actions = {
     api
       .playlistDetail(id)
       .then(res => {
+        console.log('请求接口成功')
         if (res.code === 200) {
           commit(types.GET_PLAYDETAIL_LIST, res.playlist)
         } else {
@@ -26,6 +30,7 @@ const actions = {
 
 const mutations = {
   [types.GET_PLAYDETAIL_LIST] (state, res) {
+    console.log('添加到state')
     state.playlistDetailList = res
   }
 }

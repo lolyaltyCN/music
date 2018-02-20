@@ -1,10 +1,25 @@
 <template>
   <div class='detailplay'>
     <header>
-      <div class="back">&lt;</div>
-      <p>歌单</p>
-      <div class="bofang">
-        <i class="icon iconfont icon-rank"></i>
+      <div class="Background" v-bind:style="{backgroundImage: 'url('+playlistDetail.coverImgUrl+')'}"></div>
+      <div class="top">
+        <div class="back">&lt;</div>
+        <p>歌单</p>
+        <div class="bofang">
+          <i class="icon iconfont icon-rank"></i>
+        </div>
+      </div>
+      <div class="content">
+        <div class="cover">
+          <img :src="playlistDetail.coverImgUrl">
+          <span>{{playlistDetail.playCount | thousands}}</span>
+          <!-- <i>专辑封面详情</i> -->
+        </div>
+        <div class="detail">
+          <p>{{playlistDetail.name}}</p>
+          <span class="name">{{playlistDetail.creator.nickname}}</span>
+        </div>
+        <div class="clear"></div>
       </div>
     </header>
     <Footers :footer-list="footerList"></Footers>
@@ -29,8 +44,9 @@ export default {
   },
   created() {
     this.id = this.$route.params.id;
-    console.log(this)
-    // this.$store.dispatch("getplaylistDetail", this.id);
+    this.$store.dispatch("getplaylistDetail", this.id);
+    this.$store.commit("GET_FOOTER_LIST", 0);
+    console.log(this);
   },
   components: {
     Footers
@@ -42,18 +58,57 @@ export default {
 @import "../scss/mixin/mixin.scss";
 .detailplay {
   header {
-    display: flex;
-    height: 0.9rem;
-    background: $themecolor;
-    .back {
-      line-height: 0.9rem;
+    height: 5.3rem;
+    position: relative;
+    padding: 0 .29rem;
+    .Background {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      @include mohu(55);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
     }
-    p {
-      flex: 1;
-      line-height: .9rem;
+    .top {
+      display: flex;
+      .back {
+        line-height: 0.9rem;
+      }
+      p {
+        flex: 1;
+        line-height: 0.9rem;
+      }
+      .bofang {
+        @extend .song;
+      }
     }
-    .bofang {
-      @extend .song;
+    .content {
+      padding-top: .42rem;
+      .cover {
+        width: 2.8rem;
+        height: 2.8rem;
+        position: relative;
+        float: left;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        span{
+          padding-left: .22rem;
+          font-size: .22rem;
+          position: absolute;
+          top: .08rem;
+          right: .15rem;
+          @include listen();
+        }
+      }
+      .detail{
+        float: left;
+        width: 3.52rem;  
+        margin-left: .3rem;
+      }
     }
   }
 }

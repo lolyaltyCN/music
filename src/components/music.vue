@@ -91,7 +91,6 @@ export default {
     ...mapGetters(["personalizedMusicList"])
   },
   created() {
-    this.get();
     this.$store.dispatch("getbanner");
     this.$store.dispatch("getpersonalized");
     this.$store.dispatch("getpersonalizedMv");
@@ -99,10 +98,6 @@ export default {
     
   },
   methods: {
-    get() {
-      var _this = this;
-       console.log(_this.personalizedList)
-    }
   },
   data() {
     return {};
@@ -172,7 +167,7 @@ export default {
     color: $whitecolor;
     @include size(19);
     padding-left: .22rem;
-    background-repeat: no-repeat;
+    
     @include listen();
   }
   .index_Recommend_song {
