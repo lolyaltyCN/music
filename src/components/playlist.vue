@@ -9,7 +9,7 @@
           <i class="icon iconfont icon-rank"></i>
         </div>
       </div>
-      <div class="content">
+      <div class="content" v-if="playlistDetail">
         <div class="cover">
           <img :src="playlistDetail.coverImgUrl">
           <span>{{playlistDetail.playCount | thousands}}</span>
@@ -17,14 +17,14 @@
         </div>
         <div class="detail">
           <p>{{playlistDetail.name}}</p>
-          <span class="name">{{playlistDetail.creator.nickname}}</span>
+          <!-- <span class="name">{{playlistDetail.creator.nickname}}</span> -->
+          <span class="name">{{playlistDetail.creator}}</span>
         </div>
         <div class="clear"></div>
       </div>
     </header>
     <Footers :footer-list="footerList"></Footers>
   </div>
-
 </template>
 
 <script>
@@ -46,7 +46,7 @@ export default {
     this.id = this.$route.params.id;
     this.$store.dispatch("getplaylistDetail", this.id);
     this.$store.commit("GET_FOOTER_LIST", 0);
-    console.log(this);
+    console.log(this.playlistDetail.creator);
   },
   components: {
     Footers
@@ -95,7 +95,7 @@ export default {
           width: 100%;
           height: 100%;
         }
-        span{
+        span {
           padding-left: .22rem;
           font-size: .22rem;
           position: absolute;
@@ -104,9 +104,9 @@ export default {
           @include listen();
         }
       }
-      .detail{
+      .detail {
         float: left;
-        width: 3.52rem;  
+        width: 3.52rem;
         margin-left: .3rem;
       }
     }
