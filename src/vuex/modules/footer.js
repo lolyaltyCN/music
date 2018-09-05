@@ -32,7 +32,6 @@ const getters = {
     return state.footerList
   }
 }
-
 const mutations = {
   [types.GET_FOOTER_LIST] (state, i) {
     state
